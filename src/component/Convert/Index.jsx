@@ -1,5 +1,5 @@
 import Menu from "../menu";
-import Convert from "./Convert";
+import Product_list from "./Product-list";
 
 export default function Index() {
   return (
@@ -8,7 +8,7 @@ export default function Index() {
     <div className="flex mt-[4.7rem] md:mt-0">
         <Menu/>
       <div className="content">
-        <Convert/>
+        <Product_list/>
       </div>
     </div>
   </>

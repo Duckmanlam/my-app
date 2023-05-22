@@ -1,10 +1,9 @@
-import Index from "./component/Convert/Index"
-
+import Index from "./component/Homepage/Index"
 function App() {
 
   return (
     <>
-    <Index/>
+  <Index/>
     </>
   )
 }
