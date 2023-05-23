@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Menu() {
   return (
     <div>
@@ -133,7 +135,7 @@ export default function Menu() {
             <polyline points="9 22 9 12 15 12 15 22" />
           </svg>
         </div>
-        <div className="side-menu__title">Trang chủ</div>
+        <Link to="/" className="side-menu__title">Trang chủ</Link>
       </a>
       <ul className="side-menu__sub-open" />
     </li>
@@ -159,7 +161,7 @@ export default function Menu() {
             <polyline points="14 2 14 8 20 8" />
           </svg>
         </div>
-        <div className="side-menu__title">Tài liệu của tôi</div>
+        <Link to="/product-list" className="side-menu__title">Tài liệu của tôi</Link>
       </a>
     </li>
     <li>
@@ -205,7 +207,7 @@ export default function Menu() {
             <path d="M12 17h.01" />
           </svg>
         </div>
-        <div className="side-menu__title">Hỏi đáp</div>
+        <Link to="/chat" className="side-menu__title">Hỏi đáp</Link>
       </a>
     </li>
     <li>
@@ -226,7 +228,7 @@ export default function Menu() {
             <path d="m6 14 1.45-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H18a2 2 0 0 1 2 2v2" />
           </svg>
         </div>
-        <div className="side-menu__title">File Manager</div>
+        <Link to="/manager" className="side-menu__title">File Manager</Link>
       </a>
     </li>
     <li>
