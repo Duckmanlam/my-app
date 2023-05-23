@@ -1,4 +1,4 @@
-import Menu from "../Menu";
+import Menu from "../Menu/Menu";
 
 // eslint-disable-next-line react/prop-types
 function DefaultLayout({ children }) {
