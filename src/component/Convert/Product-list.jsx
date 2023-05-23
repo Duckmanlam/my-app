@@ -10,7 +10,7 @@ export default function Product_list() {
           <li className="breadcrumb-item">
             <a href="#">Application</a>
           </li>
-          <li className="breadcrumb-item active" aria-current="page">
+          <li className="breadcrumb-item active " aria-current="page">
             Dashboard
           </li>
         </ol>
