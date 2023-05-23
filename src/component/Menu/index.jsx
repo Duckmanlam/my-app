@@ -164,7 +164,7 @@ export default function Menu() {
         <Link to="/product-list" className="side-menu__title">Tài liệu của tôi</Link>
       </a>
     </li>
-    <li>
+    {/* <li>
       <a href="#" className="side-menu side-menu--open">
         <div className="side-menu__icon">
           <svg
@@ -186,7 +186,7 @@ export default function Menu() {
         </div>
         <div className="side-menu__title">Lịch sử bài tập</div>
       </a>
-    </li>
+    </li> */}
     <li>
       <a href="#" className="side-menu">
         <div className="side-menu__icon">
@@ -231,7 +231,7 @@ export default function Menu() {
         <Link to="/manager" className="side-menu__title">File Manager</Link>
       </a>
     </li>
-    <li>
+    {/* <li>
       <a href="#" className="side-menu">
         <div className="side-menu__icon">
           <svg
@@ -252,7 +252,7 @@ export default function Menu() {
         </div>
         <div className="side-menu__title">Hỗ trợ</div>
       </a>
-    </li>
+    </li> */}
     <li />
   </ul>
 </nav>

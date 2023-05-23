@@ -312,7 +312,7 @@ export default function Content_chat() {
     {/* END: Notifications */}
     {/* BEGIN: Account Menu */}
     <div className="intro-x dropdown w-8 h-8">
-      <div
+      {/* <div
         className="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in"
         role="button"
         aria-expanded="false"
@@ -322,7 +322,7 @@ export default function Content_chat() {
           alt="Midone - HTML Admin Template"
           src="../../Lib/images/profile-6.jpg"
         />
-      </div>
+      </div> */}
       <div className="dropdown-menu w-56">
         <ul className="dropdown-content bg-primary text-white">
           <li className="p-2">
@@ -5455,12 +5455,12 @@ export default function Content_chat() {
         {/* BEGIN: Chat Default */}
         <div className="h-full flex items-center">
           <div className="mx-auto text-center">
-            <div className="w-16 h-16 flex-none image-fit rounded-full overflow-hidden mx-auto">
+            {/* <div className="w-16 h-16 flex-none image-fit rounded-full overflow-hidden mx-auto">
               <img
                 alt="Midone - HTML Admin Template"
                 src="../../Lib/images/profile-6.jpg"
               />
-            </div>
+            </div> */}
             <div className="mt-3">
               <div className="font-medium">Hey, Robert De Niro!</div>
               <div className="text-slate-500 mt-1">

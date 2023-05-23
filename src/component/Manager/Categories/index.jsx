@@ -10,10 +10,10 @@ export default function Categories() {
           <i className="w-4 h-4 mr-2" data-lucide="file-plus" /> Tài liệu đầy
           đủ{" "}
         </a>
-        <a href="" className="flex items-center px-3 py-2 mt-2 rounded-md">
+        {/* <a href="" className="flex items-center px-3 py-2 mt-2 rounded-md">
           <i className="w-4 h-4 mr-2" data-lucide="folder-plus" /> Tài liệu đã
           tải lên
-        </a>
+        </a> */}
         <a href="" className="flex items-center px-3 py-2 mt-2 rounded-md">
           <i className="w-4 h-4 mr-2" data-lucide="file-text" /> Tài liệu tóm
           tắt

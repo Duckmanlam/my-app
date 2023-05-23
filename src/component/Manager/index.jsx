@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Menu from "../Menu";
 import Categories from "./Categories";
-// import Preview7 from "../../Lib/images/preview-7.png"
+import Preview7 from "../../Lib/images/preview-7.png"
 
 export default function Manager() {
   return (

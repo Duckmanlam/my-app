@@ -414,9 +414,9 @@ export default function Product_list() {
           <h2 className="intro-y text-lg font-medium mt-10">Danh sách bài học</h2>
           <div className="grid grid-cols-12 gap-6 mt-5">
             <div className="intro-y col-span-12 flex flex-wrap sm:flex-nowrap items-center mt-2">
-              <button className="btn btn-primary shadow-md mr-2">
+              <Link to="/scan" className="btn btn-primary shadow-md mr-2">
                 Thêm bài học mới
-              </button>
+              </Link>
               <div className="dropdown">
                 <button
                   className="dropdown-toggle btn px-2 box"
