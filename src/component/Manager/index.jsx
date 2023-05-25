@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import Categories from "../Categories";
 import Menu from "../Menu";
+import Categories from "../Categories";
 
-export default function Quiz() {
+export default function Manager() {
   return (
     <div>
       <div className="flex mt-[4.7rem] md:mt-0">
@@ -1548,7 +1548,8 @@ export default function Quiz() {
             </div>
           </div>
         </div>
+
       </div>
     </div>
-  );
+  )
 }
