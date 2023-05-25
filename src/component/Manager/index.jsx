@@ -5,7 +5,7 @@ import Categories from "../Categories";
 export default function Manager() {
   return (
     <div>
-      <div className="flex mt-[4.7rem] md:mt-0">
+      <div className="flex m-4">
         <Menu />
         <div className="content">
           {/* BEGIN: Top Bar */}

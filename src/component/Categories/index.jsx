@@ -20,9 +20,9 @@ export default function Categories() {
           <i className="w-4 h-4 mr-2" data-lucide="file-text" /> Tài liệu tóm
           tắt
         </a>
-        <Link to="/quiz" className="flex items-center px-3 py-2 mt-2 rounded-md">
+        <Link to="/quiz" className="flex items-center px-3 py-2 mt-2 rounded-md transition duration-300 ease-in-out transform hover:scale-110 bg-blue-500 hover:bg-blue-600 text-white font-bold">
           {" "}
-          <i className="w-4 h-4 mr-2" data-lucide="pen-tool" />
+          <i className="w-4 h-4 mr-2 " data-lucide="pen-tool" />
           Làm bài tập{" "}
         </Link>
         <a href="" className="flex items-center px-3 py-2 mt-2 rounded-md">

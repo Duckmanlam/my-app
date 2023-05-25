@@ -4,7 +4,7 @@ import Menu from "../Menu/";
 export default function Product_list() {
   return (
     <div>
-      <div className="flex mt-[4.7rem] md:mt-0">
+      <div className="flex m-4">
         <Menu />
         <div className="content">
           {/* BEGIN: Top Bar */}

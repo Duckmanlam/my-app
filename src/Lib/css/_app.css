@@ -9956,10 +9956,10 @@ html.dark body *, html.dark body ::before, html.dark body ::after{
 }
 html body{
     overflow-x: hidden;
-    padding-top: 0.75rem;
+    /* padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right: 2rem; */
     font-family: Roboto;
     font-size: 0.875rem;
     line-height: 1.25rem;
