@@ -8,9 +8,9 @@ export default function Categories() {
           href=""
           className=" flex items-center px-3 py-2 mt-2 rounded-md transition duration-300 ease-in-out transform hover:scale-110 hover:bg-blue-600 text-slate-950	 font-bold"
         >
-          {" "}
+          
           <i className="w-4 h-4 mr-2" data-lucide="file-plus" /> Tài liệu đầy
-          đủ{" "}
+          đủ
         </a>
         {/* <a href="" className="flex items-center px-3 py-2 mt-2 rounded-md">
           <i className="w-4 h-4 mr-2" data-lucide="folder-plus" /> Tài liệu đã
@@ -21,21 +21,21 @@ export default function Categories() {
           tắt
         </a>
         <Link to="/quiz" className="	 flex items-center px-3 py-2 mt-2 rounded-md transition duration-300 ease-in-out transform hover:scale-110 hover:bg-blue-600 text-slate-950	 font-bold">
-          {" "}
+          
           <i className="w-4 h-4 mr-2 " data-lucide="pen-tool" />
-          Làm bài tập{" "}
+          Làm bài tập
         </Link>
         <a href="" className=" flex items-center px-3 py-2 mt-2 rounded-md transition duration-300 ease-in-out transform hover:scale-110 hover:bg-blue-600 text-slate-950	 font-bold">
-          <i className="w-4 h-4 mr-2" data-lucide="bar-chart-2" /> Thống kê{" "}
+          <i className="w-4 h-4 mr-2" data-lucide="bar-chart-2" /> Thống kê
         </a>
         <a href="" className=" flex items-center px-3 py-2 mt-2 rounded-md transition duration-300 ease-in-out transform hover:scale-110 hover:bg-blue-600 text-slate-950	 font-bold">
-          {" "}
+          
           <i
             className="w-4 h-4 mr-2"
             data-lucide="search
                               "
           />
-          Hỏi đáp{" "}
+          Hỏi đáp
         </a>
       </div>
     </div>

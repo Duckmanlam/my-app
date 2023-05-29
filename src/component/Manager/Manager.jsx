@@ -36,11 +36,11 @@ export default function Manager() {
                 <i data-lucide="search" className="search__icon dark:text-slate-500" />
               </div>
               <a className="notification sm:hidden" href="">
-                {" "}
+                
                 <i
                   data-lucide="search"
                   className="notification__icon dark:text-slate-500"
-                />{" "}
+                />
               </a>
               <div className="search-result">
                 <div className="search-result__content">
@@ -48,22 +48,22 @@ export default function Manager() {
                   <div className="mb-5">
                     <a href="" className="flex items-center">
                       <div className="w-8 h-8 bg-success/20 dark:bg-success/10 text-success flex items-center justify-center rounded-full">
-                        {" "}
-                        <i className="w-4 h-4" data-lucide="inbox" />{" "}
+                        
+                        <i className="w-4 h-4" data-lucide="inbox" />
                       </div>
                       <div className="ml-3">Mail Settings</div>
                     </a>
                     <a href="" className="flex items-center mt-2">
                       <div className="w-8 h-8 bg-pending/10 text-pending flex items-center justify-center rounded-full">
-                        {" "}
-                        <i className="w-4 h-4" data-lucide="users" />{" "}
+                        
+                        <i className="w-4 h-4" data-lucide="users" />
                       </div>
                       <div className="ml-3">Users &amp; Permissions</div>
                     </a>
                     <a href="" className="flex items-center mt-2">
                       <div className="w-8 h-8 bg-primary/10 dark:bg-primary/20 text-primary/80 flex items-center justify-center rounded-full">
-                        {" "}
-                        <i className="w-4 h-4" data-lucide="credit-card" />{" "}
+                        
+                        <i className="w-4 h-4" data-lucide="credit-card" />
                       </div>
                       <div className="ml-3">Transactions Report</div>
                     </a>
@@ -188,11 +188,11 @@ export default function Manager() {
                 aria-expanded="false"
                 data-tw-toggle="dropdown"
               >
-                {" "}
+                
                 <i
                   data-lucide="bell"
                   className="notification__icon dark:text-slate-500"
-                />{" "}
+                />
               </div>
               <div className="notification-content pt-2 dropdown-menu">
                 <div className="notification-content__box dropdown-content">
@@ -268,7 +268,7 @@ export default function Manager() {
                       <div className="w-full truncate text-slate-500 mt-0.5">
                         It is a long established fact that a reader will be distracted
                         by the readable content of a page when looking at its layout.
-                        The point of using Lorem{" "}
+                        The point of using Lorem
                       </div>
                     </div>
                   </div>
@@ -293,7 +293,7 @@ export default function Manager() {
                       <div className="w-full truncate text-slate-500 mt-0.5">
                         It is a long established fact that a reader will be distracted
                         by the readable content of a page when looking at its layout.
-                        The point of using Lorem{" "}
+                        The point of using Lorem
                       </div>
                     </div>
                   </div>
@@ -352,26 +352,26 @@ export default function Manager() {
                   </li>
                   <li>
                     <a href="" className="dropdown-item hover:bg-white/5">
-                      {" "}
-                      <i data-lucide="user" className="w-4 h-4 mr-2" /> Profile{" "}
+                      
+                      <i data-lucide="user" className="w-4 h-4 mr-2" /> Profile
                     </a>
                   </li>
                   <li>
                     <a href="" className="dropdown-item hover:bg-white/5">
-                      {" "}
-                      <i data-lucide="edit" className="w-4 h-4 mr-2" /> Add Account{" "}
+                      
+                      <i data-lucide="edit" className="w-4 h-4 mr-2" /> Add Account
                     </a>
                   </li>
                   <li>
                     <a href="" className="dropdown-item hover:bg-white/5">
-                      {" "}
-                      <i data-lucide="lock" className="w-4 h-4 mr-2" /> Reset Password{" "}
+                      
+                      <i data-lucide="lock" className="w-4 h-4 mr-2" /> Reset Password
                     </a>
                   </li>
                   <li>
                     <a href="" className="dropdown-item hover:bg-white/5">
-                      {" "}
-                      <i data-lucide="help-circle" className="w-4 h-4 mr-2" /> Help{" "}
+                      
+                      <i data-lucide="help-circle" className="w-4 h-4 mr-2" /> Help
                     </a>
                   </li>
                   <li>
@@ -379,11 +379,11 @@ export default function Manager() {
                   </li>
                   <li>
                     <a href="" className="dropdown-item hover:bg-white/5">
-                      {" "}
+                      
                       <i
                         data-lucide="toggle-right"
                         className="w-4 h-4 mr-2"
-                      /> Logout{" "}
+                      /> Logout
                     </a>
                   </li>
                 </ul>

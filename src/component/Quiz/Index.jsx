@@ -24,7 +24,7 @@ export default function Game() {
             <div className="w-11/12 m-auto">
               <div className="">
                 <h1 className="text-xl font-bold text-center">
-                  {" "}
+                  
                   Trắc nhiệm “Dế Mèn bênh vực kẻ yếu”
                 </h1>
                 <p className="text-center">Câu 01/12 </p>

@@ -100,7 +100,7 @@ export default function Mg_content() {
                 </div>
                 <div className="w-full sm:w-auto flex">
                   <button className="btn btn-primary shadow-md mr-2">
-                    {" "}
+                    
                     Tải tài liệu lên
                   </button>
                   <Link to="/scan" className="btn shadow-md mr-2 "> Scan tài liệu</Link>
@@ -126,28 +126,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -178,28 +178,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -212,7 +212,7 @@ export default function Mg_content() {
                     <a
                       href=""
                       className="w-3/5 file__icon file__icon--empty-directory mx-auto"
-                    />{" "}
+                    />
                     <a href="" className="block font-medium mt-4 text-center truncate">
                       Documentation
                     </a>
@@ -226,28 +226,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -260,7 +260,7 @@ export default function Mg_content() {
                     <a
                       href=""
                       className="w-3/5 file__icon file__icon--empty-directory mx-auto"
-                    />{" "}
+                    />
                     <a href="" className="block font-medium mt-4 text-center truncate">
                       Documentation
                     </a>
@@ -274,28 +274,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -326,28 +326,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -373,28 +373,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -407,7 +407,7 @@ export default function Mg_content() {
                     <a
                       href=""
                       className="w-3/5 file__icon file__icon--directory mx-auto"
-                    />{" "}
+                    />
                     <a href="" className="block font-medium mt-4 text-center truncate">
                       Repository
                     </a>
@@ -421,28 +421,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -468,28 +468,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -515,28 +515,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -562,28 +562,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -596,7 +596,7 @@ export default function Mg_content() {
                     <a
                       href=""
                       className="w-3/5 file__icon file__icon--directory mx-auto"
-                    />{" "}
+                    />
                     <a href="" className="block font-medium mt-4 text-center truncate">
                       Repository
                     </a>
@@ -610,28 +610,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -644,7 +644,7 @@ export default function Mg_content() {
                     <a
                       href=""
                       className="w-3/5 file__icon file__icon--empty-directory mx-auto"
-                    />{" "}
+                    />
                     <a href="" className="block font-medium mt-4 text-center truncate">
                       Laravel 7
                     </a>
@@ -658,28 +658,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -692,7 +692,7 @@ export default function Mg_content() {
                     <a
                       href=""
                       className="w-3/5 file__icon file__icon--directory mx-auto"
-                    />{" "}
+                    />
                     <a href="" className="block font-medium mt-4 text-center truncate">
                       Repository
                     </a>
@@ -706,28 +706,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -740,7 +740,7 @@ export default function Mg_content() {
                     <a
                       href=""
                       className="w-3/5 file__icon file__icon--directory mx-auto"
-                    />{" "}
+                    />
                     <a href="" className="block font-medium mt-4 text-center truncate">
                       Repository
                     </a>
@@ -754,28 +754,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -788,7 +788,7 @@ export default function Mg_content() {
                     <a
                       href=""
                       className="w-3/5 file__icon file__icon--empty-directory mx-auto"
-                    />{" "}
+                    />
                     <a href="" className="block font-medium mt-4 text-center truncate">
                       Documentation
                     </a>
@@ -802,28 +802,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -854,28 +854,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -901,28 +901,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -935,7 +935,7 @@ export default function Mg_content() {
                     <a
                       href=""
                       className="w-3/5 file__icon file__icon--empty-directory mx-auto"
-                    />{" "}
+                    />
                     <a href="" className="block font-medium mt-4 text-center truncate">
                       Documentation
                     </a>
@@ -949,28 +949,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -1001,28 +1001,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -1048,28 +1048,28 @@ export default function Mg_content() {
                         aria-expanded="false"
                         data-tw-toggle="dropdown"
                       >
-                        {" "}
+                        
                         <i
                           data-lucide="more-vertical"
                           className="w-5 h-5 text-slate-500"
-                        />{" "}
+                        />
                       </a>
                       <div className="dropdown-menu w-40">
                         <ul className="dropdown-content">
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                              File{" "}
+                              File
                             </a>
                           </li>
                           <li>
                             <a href="" className="dropdown-item">
-                              {" "}
+                              
                               <i
                                 data-lucide="trash"
                                 className="w-4 h-4 mr-2"
-                              /> Delete{" "}
+                              /> Delete
                             </a>
                           </li>
                         </ul>
@@ -1084,56 +1084,56 @@ export default function Mg_content() {
                   <ul className="pagination">
                     <li className="page-item">
                       <a className="page-link" href="#">
-                        {" "}
-                        <i className="w-4 h-4" data-lucide="chevrons-left" />{" "}
+                        
+                        <i className="w-4 h-4" data-lucide="chevrons-left" />
                       </a>
                     </li>
                     <li className="page-item">
                       <a className="page-link" href="#">
-                        {" "}
-                        <i className="w-4 h-4" data-lucide="chevron-left" />{" "}
+                        
+                        <i className="w-4 h-4" data-lucide="chevron-left" />
                       </a>
                     </li>
                     <li className="page-item">
-                      {" "}
+                      
                       <a className="page-link" href="#">
                         ...
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="page-item">
-                      {" "}
+                      
                       <a className="page-link" href="#">
                         1
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="page-item active">
-                      {" "}
+                      
                       <a className="page-link" href="#">
                         2
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="page-item">
-                      {" "}
+                      
                       <a className="page-link" href="#">
                         3
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="page-item">
-                      {" "}
+                      
                       <a className="page-link" href="#">
                         ...
-                      </a>{" "}
-                    </li>
-                    <li className="page-item">
-                      <a className="page-link" href="#">
-                        {" "}
-                        <i className="w-4 h-4" data-lucide="chevron-right" />{" "}
                       </a>
                     </li>
                     <li className="page-item">
                       <a className="page-link" href="#">
-                        {" "}
-                        <i className="w-4 h-4" data-lucide="chevrons-right" />{" "}
+                        
+                        <i className="w-4 h-4" data-lucide="chevron-right" />
+                      </a>
+                    </li>
+                    <li className="page-item">
+                      <a className="page-link" href="#">
+                        
+                        <i className="w-4 h-4" data-lucide="chevrons-right" />
                       </a>
                     </li>
                   </ul>

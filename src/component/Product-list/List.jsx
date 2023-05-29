@@ -31,11 +31,11 @@ export default function List() {
                 />
               </div>
               <a className="notification sm:hidden" href="">
-                {" "}
+                
                 <i
                   data-lucide="search"
                   className="notification__icon dark:text-slate-500"
-                />{" "}
+                />
               </a>
               <div className="search-result">
                 <div className="search-result__content">
@@ -43,22 +43,22 @@ export default function List() {
                   <div className="mb-5">
                     <a href="" className="flex items-center">
                       <div className="w-8 h-8 bg-success/20 dark:bg-success/10 text-success flex items-center justify-center rounded-full">
-                        {" "}
-                        <i className="w-4 h-4" data-lucide="inbox" />{" "}
+                        
+                        <i className="w-4 h-4" data-lucide="inbox" />
                       </div>
                       <div className="ml-3">Cài đặt thư</div>
                     </a>
                     <a href="" className="flex items-center mt-2">
                       <div className="w-8 h-8 bg-pending/10 text-pending flex items-center justify-center rounded-full">
-                        {" "}
-                        <i className="w-4 h-4" data-lucide="users" />{" "}
+                        
+                        <i className="w-4 h-4" data-lucide="users" />
                       </div>
                       <div className="ml-3">Người dùng &amp; Quyền</div>
                     </a>
                     <a href="" className="flex items-center mt-2">
                       <div className="w-8 h-8 bg-primary/10 dark:bg-primary/20 text-primary/80 flex items-center justify-center rounded-full">
-                        {" "}
-                        <i className="w-4 h-4" data-lucide="credit-card" />{" "}
+                        
+                        <i className="w-4 h-4" data-lucide="credit-card" />
                       </div>
                       <div className="ml-3">Transactions Report</div>
                     </a>
@@ -183,11 +183,11 @@ export default function List() {
                 aria-expanded="false"
                 data-tw-toggle="dropdown"
               >
-                {" "}
+                
                 <i
                   data-lucide="bell"
                   className="notification__icon dark:text-slate-500"
-                />{" "}
+                />
               </div>
               <div className="notification-content pt-2 dropdown-menu">
                 <div className="notification-content__box dropdown-content">
@@ -362,30 +362,30 @@ export default function List() {
                   </li>
                   <li>
                     <a href="" className="dropdown-item hover:bg-white/5">
-                      {" "}
-                      <i data-lucide="user" className="w-4 h-4 mr-2" /> Profile{" "}
+                      
+                      <i data-lucide="user" className="w-4 h-4 mr-2" /> Profile
                     </a>
                   </li>
                   <li>
                     <a href="" className="dropdown-item hover:bg-white/5">
-                      {" "}
-                      <i data-lucide="edit" className="w-4 h-4 mr-2" /> Add Account{" "}
+                      
+                      <i data-lucide="edit" className="w-4 h-4 mr-2" /> Add Account
                     </a>
                   </li>
                   <li>
                     <a href="" className="dropdown-item hover:bg-white/5">
-                      {" "}
+                      
                       <i data-lucide="lock" className="w-4 h-4 mr-2" /> Reset
-                      Password{" "}
+                      Password
                     </a>
                   </li>
                   <li>
                     <a href="" className="dropdown-item hover:bg-white/5">
-                      {" "}
+                      
                       <i
                         data-lucide="help-circle"
                         className="w-4 h-4 mr-2"
-                      /> Help{" "}
+                      /> Help
                     </a>
                   </li>
                   <li>
@@ -393,9 +393,9 @@ export default function List() {
                   </li>
                   <li>
                     <a href="" className="dropdown-item hover:bg-white/5">
-                      {" "}
-                      <i data-lucide="toggle-right" className="w-4 h-4 mr-2" />{" "}
-                      Logout{" "}
+                      
+                      <i data-lucide="toggle-right" className="w-4 h-4 mr-2" />
+                      Logout
                     </a>
                   </li>
                 </ul>
@@ -417,33 +417,33 @@ export default function List() {
                   data-tw-toggle="dropdown"
                 >
                   <span className="w-5 h-5 flex items-center justify-center">
-                    {" "}
-                    <i className="w-4 h-4" data-lucide="plus" />{" "}
+                    
+                    <i className="w-4 h-4" data-lucide="plus" />
                   </span>
                 </button>
                 <div className="dropdown-menu w-40">
                   <ul className="dropdown-content">
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i
                           data-lucide="printer"
                           className="w-4 h-4 mr-2"
-                        /> Print{" "}
+                        /> Print
                       </a>
                     </li>
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
-                        <i data-lucide="file-text" className="w-4 h-4 mr-2" />{" "}
-                        Export to Excel{" "}
+                        
+                        <i data-lucide="file-text" className="w-4 h-4 mr-2" />
+                        Export to Excel
                       </a>
                     </li>
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
-                        <i data-lucide="file-text" className="w-4 h-4 mr-2" />{" "}
-                        Export to PDF{" "}
+                        
+                        <i data-lucide="file-text" className="w-4 h-4 mr-2" />
+                        Export to PDF
                       </a>
                     </li>
                   </ul>
@@ -494,12 +494,12 @@ export default function List() {
                     <td className="table-report__action w-56">
                       <div className="flex justify-center items-center">
                         <a className="flex items-center mr-3" href="javascript:;">
-                          {" "}
+                          
                           <i
                             data-lucide="check-square"
                             className="w-4 h-4 mr-1"
-                          />{" "}
-                          Edit{" "}
+                          />
+                          Edit
                         </a>
                         <a
                           className="flex items-center text-danger"
@@ -507,9 +507,9 @@ export default function List() {
                           data-tw-toggle="modal"
                           data-tw-target="#delete-confirmation-modal"
                         >
-                          {" "}
-                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />{" "}
-                          Delete{" "}
+                          
+                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />
+                          Delete
                         </a>
                       </div>
                     </td>
@@ -527,12 +527,12 @@ export default function List() {
                     <td className="table-report__action w-56">
                       <div className="flex justify-center items-center">
                         <a className="flex items-center mr-3" href="javascript:;">
-                          {" "}
+                          
                           <i
                             data-lucide="check-square"
                             className="w-4 h-4 mr-1"
-                          />{" "}
-                          Edit{" "}
+                          />
+                          Edit
                         </a>
                         <a
                           className="flex items-center text-danger"
@@ -540,9 +540,9 @@ export default function List() {
                           data-tw-toggle="modal"
                           data-tw-target="#delete-confirmation-modal"
                         >
-                          {" "}
-                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />{" "}
-                          Delete{" "}
+                          
+                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />
+                          Delete
                         </a>
                       </div>
                     </td>
@@ -560,12 +560,12 @@ export default function List() {
                     <td className="table-report__action w-56">
                       <div className="flex justify-center items-center">
                         <a className="flex items-center mr-3" href="javascript:;">
-                          {" "}
+                          
                           <i
                             data-lucide="check-square"
                             className="w-4 h-4 mr-1"
-                          />{" "}
-                          Edit{" "}
+                          />
+                          Edit
                         </a>
                         <a
                           className="flex items-center text-danger"
@@ -573,9 +573,9 @@ export default function List() {
                           data-tw-toggle="modal"
                           data-tw-target="#delete-confirmation-modal"
                         >
-                          {" "}
-                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />{" "}
-                          Delete{" "}
+                          
+                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />
+                          Delete
                         </a>
                       </div>
                     </td>
@@ -593,12 +593,12 @@ export default function List() {
                     <td className="table-report__action w-56">
                       <div className="flex justify-center items-center">
                         <a className="flex items-center mr-3" href="javascript:;">
-                          {" "}
+                          
                           <i
                             data-lucide="check-square"
                             className="w-4 h-4 mr-1"
-                          />{" "}
-                          Edit{" "}
+                          />
+                          Edit
                         </a>
                         <a
                           className="flex items-center text-danger"
@@ -606,9 +606,9 @@ export default function List() {
                           data-tw-toggle="modal"
                           data-tw-target="#delete-confirmation-modal"
                         >
-                          {" "}
-                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />{" "}
-                          Delete{" "}
+                          
+                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />
+                          Delete
                         </a>
                       </div>
                     </td>
@@ -626,12 +626,12 @@ export default function List() {
                     <td className="table-report__action w-56">
                       <div className="flex justify-center items-center">
                         <a className="flex items-center mr-3" href="javascript:;">
-                          {" "}
+                          
                           <i
                             data-lucide="check-square"
                             className="w-4 h-4 mr-1"
-                          />{" "}
-                          Edit{" "}
+                          />
+                          Edit
                         </a>
                         <a
                           className="flex items-center text-danger"
@@ -639,9 +639,9 @@ export default function List() {
                           data-tw-toggle="modal"
                           data-tw-target="#delete-confirmation-modal"
                         >
-                          {" "}
-                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />{" "}
-                          Delete{" "}
+                          
+                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />
+                          Delete
                         </a>
                       </div>
                     </td>
@@ -659,12 +659,12 @@ export default function List() {
                     <td className="table-report__action w-56">
                       <div className="flex justify-center items-center">
                         <a className="flex items-center mr-3" href="javascript:;">
-                          {" "}
+                          
                           <i
                             data-lucide="check-square"
                             className="w-4 h-4 mr-1"
-                          />{" "}
-                          Edit{" "}
+                          />
+                          Edit
                         </a>
                         <a
                           className="flex items-center text-danger"
@@ -672,9 +672,9 @@ export default function List() {
                           data-tw-toggle="modal"
                           data-tw-target="#delete-confirmation-modal"
                         >
-                          {" "}
-                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />{" "}
-                          Delete{" "}
+                          
+                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />
+                          Delete
                         </a>
                       </div>
                     </td>
@@ -692,12 +692,12 @@ export default function List() {
                     <td className="table-report__action w-56">
                       <div className="flex justify-center items-center">
                         <a className="flex items-center mr-3" href="javascript:;">
-                          {" "}
+                          
                           <i
                             data-lucide="check-square"
                             className="w-4 h-4 mr-1"
-                          />{" "}
-                          Edit{" "}
+                          />
+                          Edit
                         </a>
                         <a
                           className="flex items-center text-danger"
@@ -705,9 +705,9 @@ export default function List() {
                           data-tw-toggle="modal"
                           data-tw-target="#delete-confirmation-modal"
                         >
-                          {" "}
-                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />{" "}
-                          Delete{" "}
+                          
+                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />
+                          Delete
                         </a>
                       </div>
                     </td>
@@ -725,12 +725,12 @@ export default function List() {
                     <td className="table-report__action w-56">
                       <div className="flex justify-center items-center">
                         <a className="flex items-center mr-3" href="javascript:;">
-                          {" "}
+                          
                           <i
                             data-lucide="check-square"
                             className="w-4 h-4 mr-1"
-                          />{" "}
-                          Edit{" "}
+                          />
+                          Edit
                         </a>
                         <a
                           className="flex items-center text-danger"
@@ -738,9 +738,9 @@ export default function List() {
                           data-tw-toggle="modal"
                           data-tw-target="#delete-confirmation-modal"
                         >
-                          {" "}
-                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />{" "}
-                          Delete{" "}
+                          
+                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />
+                          Delete
                         </a>
                       </div>
                     </td>
@@ -758,12 +758,12 @@ export default function List() {
                     <td className="table-report__action w-56">
                       <div className="flex justify-center items-center">
                         <a className="flex items-center mr-3" href="javascript:;">
-                          {" "}
+                          
                           <i
                             data-lucide="check-square"
                             className="w-4 h-4 mr-1"
-                          />{" "}
-                          Edit{" "}
+                          />
+                          Edit
                         </a>
                         <a
                           className="flex items-center text-danger"
@@ -771,9 +771,9 @@ export default function List() {
                           data-tw-toggle="modal"
                           data-tw-target="#delete-confirmation-modal"
                         >
-                          {" "}
-                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />{" "}
-                          Delete{" "}
+                          
+                          <i data-lucide="trash-2" className="w-4 h-4 mr-1" />
+                          Delete
                         </a>
                       </div>
                     </td>
@@ -788,56 +788,56 @@ export default function List() {
                 <ul className="pagination">
                   <li className="page-item">
                     <a className="page-link" href="#">
-                      {" "}
-                      <i className="w-4 h-4" data-lucide="chevrons-left" />{" "}
+                      
+                      <i className="w-4 h-4" data-lucide="chevrons-left" />
                     </a>
                   </li>
                   <li className="page-item">
                     <a className="page-link" href="#">
-                      {" "}
-                      <i className="w-4 h-4" data-lucide="chevron-left" />{" "}
+                      
+                      <i className="w-4 h-4" data-lucide="chevron-left" />
                     </a>
                   </li>
                   <li className="page-item">
-                    {" "}
+                    
                     <a className="page-link" href="#">
                       ...
-                    </a>{" "}
+                    </a>
                   </li>
                   <li className="page-item">
-                    {" "}
+                    
                     <a className="page-link" href="#">
                       1
-                    </a>{" "}
+                    </a>
                   </li>
                   <li className="page-item active">
-                    {" "}
+                    
                     <a className="page-link" href="#">
                       2
-                    </a>{" "}
+                    </a>
                   </li>
                   <li className="page-item">
-                    {" "}
+                    
                     <a className="page-link" href="#">
                       3
-                    </a>{" "}
+                    </a>
                   </li>
                   <li className="page-item">
-                    {" "}
+                    
                     <a className="page-link" href="#">
                       ...
-                    </a>{" "}
-                  </li>
-                  <li className="page-item">
-                    <a className="page-link" href="#">
-                      {" "}
-                      <i className="w-4 h-4" data-lucide="chevron-right" />{" "}
                     </a>
                   </li>
                   <li className="page-item">
                     <a className="page-link" href="#">
-                      {" "}
-                      <i className="w-4 h-4" data-lucide="chevrons-right" />{" "}
+                      
+                      <i className="w-4 h-4" data-lucide="chevron-right" />
+                    </a>
+                  </li>
+                  <li className="page-item">
+                    <a className="page-link" href="#">
+                      
+                      <i className="w-4 h-4" data-lucide="chevrons-right" />
                     </a>
                   </li>
                 </ul>

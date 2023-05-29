@@ -28,11 +28,11 @@ export default function Content_chat() {
         <i data-lucide="search" className="search__icon dark:text-slate-500" />
       </div>
       <a className="notification sm:hidden" href="">
-        {" "}
+        
         <i
           data-lucide="search"
           className="notification__icon dark:text-slate-500"
-        />{" "}
+        />
       </a>
       <div className="search-result">
         <div className="search-result__content">
@@ -40,22 +40,22 @@ export default function Content_chat() {
           <div className="mb-5">
             <a href="" className="flex items-center">
               <div className="w-8 h-8 bg-success/20 dark:bg-success/10 text-success flex items-center justify-center rounded-full">
-                {" "}
-                <i className="w-4 h-4" data-lucide="inbox" />{" "}
+                
+                <i className="w-4 h-4" data-lucide="inbox" />
               </div>
               <div className="ml-3">Mail Settings</div>
             </a>
             <a href="" className="flex items-center mt-2">
               <div className="w-8 h-8 bg-pending/10 text-pending flex items-center justify-center rounded-full">
-                {" "}
-                <i className="w-4 h-4" data-lucide="users" />{" "}
+                
+                <i className="w-4 h-4" data-lucide="users" />
               </div>
               <div className="ml-3">Users &amp; Permissions</div>
             </a>
             <a href="" className="flex items-center mt-2">
               <div className="w-8 h-8 bg-primary/10 dark:bg-primary/20 text-primary/80 flex items-center justify-center rounded-full">
-                {" "}
-                <i className="w-4 h-4" data-lucide="credit-card" />{" "}
+                
+                <i className="w-4 h-4" data-lucide="credit-card" />
               </div>
               <div className="ml-3">Transactions Report</div>
             </a>
@@ -180,11 +180,11 @@ export default function Content_chat() {
         aria-expanded="false"
         data-tw-toggle="dropdown"
       >
-        {" "}
+        
         <i
           data-lucide="bell"
           className="notification__icon dark:text-slate-500"
-        />{" "}
+        />
       </div>
       <div className="notification-content pt-2 dropdown-menu">
         <div className="notification-content__box dropdown-content">
@@ -336,26 +336,26 @@ export default function Content_chat() {
           </li>
           <li>
             <a href="" className="dropdown-item hover:bg-white/5">
-              {" "}
-              <i data-lucide="user" className="w-4 h-4 mr-2" /> Profile{" "}
+              
+              <i data-lucide="user" className="w-4 h-4 mr-2" /> Profile
             </a>
           </li>
           <li>
             <a href="" className="dropdown-item hover:bg-white/5">
-              {" "}
-              <i data-lucide="edit" className="w-4 h-4 mr-2" /> Add Account{" "}
+              
+              <i data-lucide="edit" className="w-4 h-4 mr-2" /> Add Account
             </a>
           </li>
           <li>
             <a href="" className="dropdown-item hover:bg-white/5">
-              {" "}
-              <i data-lucide="lock" className="w-4 h-4 mr-2" /> Reset Password{" "}
+              
+              <i data-lucide="lock" className="w-4 h-4 mr-2" /> Reset Password
             </a>
           </li>
           <li>
             <a href="" className="dropdown-item hover:bg-white/5">
-              {" "}
-              <i data-lucide="help-circle" className="w-4 h-4 mr-2" /> Help{" "}
+              
+              <i data-lucide="help-circle" className="w-4 h-4 mr-2" /> Help
             </a>
           </li>
           <li>
@@ -363,11 +363,11 @@ export default function Content_chat() {
           </li>
           <li>
             <a href="" className="dropdown-item hover:bg-white/5">
-              {" "}
+              
               <i
                 data-lucide="toggle-right"
                 className="w-4 h-4 mr-2"
-              /> Logout{" "}
+              /> Logout
             </a>
           </li>
         </ul>
@@ -430,7 +430,7 @@ export default function Content_chat() {
                 <div className="w-full truncate text-slate-500 mt-0.5">
                   It is a long established fact that a reader will be distracted
                   by the readable content of a page when looking at its layout.
-                  The point of using Lorem{" "}
+                  The point of using Lorem
                 </div>
               </div>
             </div>
@@ -505,7 +505,7 @@ export default function Content_chat() {
                 <div className="w-full truncate text-slate-500 mt-0.5">
                   It is a long established fact that a reader will be distracted
                   by the readable content of a page when looking at its layout.
-                  The point of using Lorem{" "}
+                  The point of using Lorem
                 </div>
               </div>
             </div>
@@ -555,10 +555,10 @@ export default function Content_chat() {
             <div className="cursor-pointer box relative flex items-center p-5 mt-5">
               <div className="ml-2 overflow-hidden">
                 <div className="flex items-center">
-                  {" "}
+                  
                   <a href="" className="font-medium">
                     Robert De Niro
-                  </a>{" "}
+                  </a>
                 </div>
                 <div className="w-full truncate text-slate-500 mt-0.5">
                   Last seen 2 hours ago
@@ -571,29 +571,29 @@ export default function Content_chat() {
                   aria-expanded="false"
                   data-tw-toggle="dropdown"
                 >
-                  {" "}
+                  
                   <i
                     data-lucide="more-horizontal"
                     className="w-5 h-5 text-slate-500"
-                  />{" "}
+                  />
                 </a>
                 <div className="dropdown-menu w-40">
                   <ul className="dropdown-content">
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i
                           data-lucide="share-2"
                           className="w-4 h-4 mr-2"
-                        />{" "}
-                        Share Contact{" "}
+                        />
+                        Share Contact
                       </a>
                     </li>
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i data-lucide="copy" className="w-4 h-4 mr-2" /> Copy
-                        Contact{" "}
+                        Contact
                       </a>
                     </li>
                   </ul>
@@ -603,10 +603,10 @@ export default function Content_chat() {
             <div className="cursor-pointer box relative flex items-center p-5 mt-5">
               <div className="ml-2 overflow-hidden">
                 <div className="flex items-center">
-                  {" "}
+                  
                   <a href="" className="font-medium">
                     John Travolta
-                  </a>{" "}
+                  </a>
                 </div>
                 <div className="w-full truncate text-slate-500 mt-0.5">
                   Last seen 2 hours ago
@@ -619,29 +619,29 @@ export default function Content_chat() {
                   aria-expanded="false"
                   data-tw-toggle="dropdown"
                 >
-                  {" "}
+                  
                   <i
                     data-lucide="more-horizontal"
                     className="w-5 h-5 text-slate-500"
-                  />{" "}
+                  />
                 </a>
                 <div className="dropdown-menu w-40">
                   <ul className="dropdown-content">
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i
                           data-lucide="share-2"
                           className="w-4 h-4 mr-2"
-                        />{" "}
-                        Share Contact{" "}
+                        />
+                        Share Contact
                       </a>
                     </li>
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i data-lucide="copy" className="w-4 h-4 mr-2" /> Copy
-                        Contact{" "}
+                        Contact
                       </a>
                     </li>
                   </ul>
@@ -652,10 +652,10 @@ export default function Content_chat() {
             <div className="cursor-pointer box relative flex items-center p-5 mt-5">
               <div className="ml-2 overflow-hidden">
                 <div className="flex items-center">
-                  {" "}
+                  
                   <a href="" className="font-medium">
                     Kevin Spacey
-                  </a>{" "}
+                  </a>
                 </div>
                 <div className="w-full truncate text-slate-500 mt-0.5">
                   Last seen 2 hours ago
@@ -668,29 +668,29 @@ export default function Content_chat() {
                   aria-expanded="false"
                   data-tw-toggle="dropdown"
                 >
-                  {" "}
+                  
                   <i
                     data-lucide="more-horizontal"
                     className="w-5 h-5 text-slate-500"
-                  />{" "}
+                  />
                 </a>
                 <div className="dropdown-menu w-40">
                   <ul className="dropdown-content">
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i
                           data-lucide="share-2"
                           className="w-4 h-4 mr-2"
-                        />{" "}
-                        Share Contact{" "}
+                        />
+                        Share Contact
                       </a>
                     </li>
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i data-lucide="copy" className="w-4 h-4 mr-2" /> Copy
-                        Contact{" "}
+                        Contact
                       </a>
                     </li>
                   </ul>
@@ -700,10 +700,10 @@ export default function Content_chat() {
             <div className="cursor-pointer box relative flex items-center p-5 mt-5">
               <div className="ml-2 overflow-hidden">
                 <div className="flex items-center">
-                  {" "}
+                  
                   <a href="" className="font-medium">
                     Johnny Depp
-                  </a>{" "}
+                  </a>
                 </div>
                 <div className="w-full truncate text-slate-500 mt-0.5">
                   Last seen 2 hours ago
@@ -716,29 +716,29 @@ export default function Content_chat() {
                   aria-expanded="false"
                   data-tw-toggle="dropdown"
                 >
-                  {" "}
+                  
                   <i
                     data-lucide="more-horizontal"
                     className="w-5 h-5 text-slate-500"
-                  />{" "}
+                  />
                 </a>
                 <div className="dropdown-menu w-40">
                   <ul className="dropdown-content">
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i
                           data-lucide="share-2"
                           className="w-4 h-4 mr-2"
-                        />{" "}
-                        Share Contact{" "}
+                        />
+                        Share Contact
                       </a>
                     </li>
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i data-lucide="copy" className="w-4 h-4 mr-2" /> Copy
-                        Contact{" "}
+                        Contact
                       </a>
                     </li>
                   </ul>
@@ -748,10 +748,10 @@ export default function Content_chat() {
             <div className="cursor-pointer box relative flex items-center p-5 mt-5">
               <div className="ml-2 overflow-hidden">
                 <div className="flex items-center">
-                  {" "}
+                  
                   <a href="" className="font-medium">
                     John Travolta
-                  </a>{" "}
+                  </a>
                 </div>
                 <div className="w-full truncate text-slate-500 mt-0.5">
                   Last seen 2 hours ago
@@ -764,29 +764,29 @@ export default function Content_chat() {
                   aria-expanded="false"
                   data-tw-toggle="dropdown"
                 >
-                  {" "}
+                  
                   <i
                     data-lucide="more-horizontal"
                     className="w-5 h-5 text-slate-500"
-                  />{" "}
+                  />
                 </a>
                 <div className="dropdown-menu w-40">
                   <ul className="dropdown-content">
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i
                           data-lucide="share-2"
                           className="w-4 h-4 mr-2"
-                        />{" "}
-                        Share Contact{" "}
+                        />
+                        Share Contact
                       </a>
                     </li>
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i data-lucide="copy" className="w-4 h-4 mr-2" /> Copy
-                        Contact{" "}
+                        Contact
                       </a>
                     </li>
                   </ul>
@@ -879,12 +879,12 @@ export default function Content_chat() {
             </div>
             <div className="flex items-center sm:ml-auto mt-5 sm:mt-0 border-t sm:border-0 border-slate-200/60 pt-3 sm:pt-0 -mx-5 sm:mx-0 px-5 sm:px-0">
               <a href="javascript:;" className="w-5 h-5 text-slate-500">
-                {" "}
-                <i data-lucide="search" className="w-5 h-5" />{" "}
+                
+                <i data-lucide="search" className="w-5 h-5" />
               </a>
               <a href="javascript:;" className="w-5 h-5 text-slate-500 ml-5">
-                {" "}
-                <i data-lucide="user-plus" className="w-5 h-5" />{" "}
+                
+                <i data-lucide="user-plus" className="w-5 h-5" />
               </a>
               <div className="dropdown ml-auto sm:ml-3">
                 <a
@@ -893,29 +893,29 @@ export default function Content_chat() {
                   aria-expanded="false"
                   data-tw-toggle="dropdown"
                 >
-                  {" "}
-                  <i data-lucide="more-vertical" className="w-5 h-5" />{" "}
+                  
+                  <i data-lucide="more-vertical" className="w-5 h-5" />
                 </a>
                 <div className="dropdown-menu w-40">
                   <ul className="dropdown-content">
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i
                           data-lucide="share-2"
                           className="w-4 h-4 mr-2"
-                        />{" "}
-                        Share Contact{" "}
+                        />
+                        Share Contact
                       </a>
                     </li>
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i
                           data-lucide="settings"
                           className="w-4 h-4 mr-2"
-                        />{" "}
-                        Settings{" "}
+                        />
+                        Settings
                       </a>
                     </li>
                   </ul>
@@ -943,26 +943,26 @@ export default function Content_chat() {
                   aria-expanded="false"
                   data-tw-toggle="dropdown"
                 >
-                  {" "}
-                  <i data-lucide="more-vertical" className="w-4 h-4" />{" "}
+                  
+                  <i data-lucide="more-vertical" className="w-4 h-4" />
                 </a>
                 <div className="dropdown-menu w-40">
                   <ul className="dropdown-content">
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i
                           data-lucide="corner-up-left"
                           className="w-4 h-4 mr-2"
-                        />{" "}
-                        Reply{" "}
+                        />
+                        Reply
                       </a>
                     </li>
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
-                        <i data-lucide="trash" className="w-4 h-4 mr-2" />{" "}
-                        Delete{" "}
+                        
+                        <i data-lucide="trash" className="w-4 h-4 mr-2" />
+                        Delete
                       </a>
                     </li>
                   </ul>
@@ -978,26 +978,26 @@ export default function Content_chat() {
                   aria-expanded="false"
                   data-tw-toggle="dropdown"
                 >
-                  {" "}
-                  <i data-lucide="more-vertical" className="w-4 h-4" />{" "}
+                  
+                  <i data-lucide="more-vertical" className="w-4 h-4" />
                 </a>
                 <div className="dropdown-menu w-40">
                   <ul className="dropdown-content">
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i
                           data-lucide="corner-up-left"
                           className="w-4 h-4 mr-2"
-                        />{" "}
-                        Reply{" "}
+                        />
+                        Reply
                       </a>
                     </li>
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
-                        <i data-lucide="trash" className="w-4 h-4 mr-2" />{" "}
-                        Delete{" "}
+                        
+                        <i data-lucide="trash" className="w-4 h-4 mr-2" />
+                        Delete
                       </a>
                     </li>
                   </ul>
@@ -1026,26 +1026,26 @@ export default function Content_chat() {
                   aria-expanded="false"
                   data-tw-toggle="dropdown"
                 >
-                  {" "}
-                  <i data-lucide="more-vertical" className="w-4 h-4" />{" "}
+                  
+                  <i data-lucide="more-vertical" className="w-4 h-4" />
                 </a>
                 <div className="dropdown-menu w-40">
                   <ul className="dropdown-content">
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i
                           data-lucide="corner-up-left"
                           className="w-4 h-4 mr-2"
-                        />{" "}
-                        Reply{" "}
+                        />
+                        Reply
                       </a>
                     </li>
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
-                        <i data-lucide="trash" className="w-4 h-4 mr-2" />{" "}
-                        Delete{" "}
+                        
+                        <i data-lucide="trash" className="w-4 h-4 mr-2" />
+                        Delete
                       </a>
                     </li>
                   </ul>
@@ -1088,26 +1088,26 @@ export default function Content_chat() {
                   aria-expanded="false"
                   data-tw-toggle="dropdown"
                 >
-                  {" "}
-                  <i data-lucide="more-vertical" className="w-4 h-4" />{" "}
+                  
+                  <i data-lucide="more-vertical" className="w-4 h-4" />
                 </a>
                 <div className="dropdown-menu w-40">
                   <ul className="dropdown-content">
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i
                           data-lucide="corner-up-left"
                           className="w-4 h-4 mr-2"
-                        />{" "}
-                        Reply{" "}
+                        />
+                        Reply
                       </a>
                     </li>
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
-                        <i data-lucide="trash" className="w-4 h-4 mr-2" />{" "}
-                        Delete{" "}
+                        
+                        <i data-lucide="trash" className="w-4 h-4 mr-2" />
+                        Delete
                       </a>
                     </li>
                   </ul>
@@ -1123,26 +1123,26 @@ export default function Content_chat() {
                   aria-expanded="false"
                   data-tw-toggle="dropdown"
                 >
-                  {" "}
-                  <i data-lucide="more-vertical" className="w-4 h-4" />{" "}
+                  
+                  <i data-lucide="more-vertical" className="w-4 h-4" />
                 </a>
                 <div className="dropdown-menu w-40">
                   <ul className="dropdown-content">
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
+                        
                         <i
                           data-lucide="corner-up-left"
                           className="w-4 h-4 mr-2"
-                        />{" "}
-                        Reply{" "}
+                        />
+                        Reply
                       </a>
                     </li>
                     <li>
                       <a href="" className="dropdown-item">
-                        {" "}
-                        <i data-lucide="trash" className="w-4 h-4 mr-2" />{" "}
-                        Delete{" "}
+                        
+                        <i data-lucide="trash" className="w-4 h-4 mr-2" />
+                        Delete
                       </a>
                     </li>
                   </ul>
@@ -1174,8 +1174,8 @@ export default function Content_chat() {
               <div className="bg-slate-100 dark:bg-darkmode-400 px-4 py-3 text-slate-500 rounded-r-md rounded-t-md">
                 Robert De Niro is typing
                 <span className="typing-dots ml-1">
-                  {" "}
-                  <span>.</span> <span>.</span> <span>.</span>{" "}
+                  
+                  <span>.</span> <span>.</span> <span>.</span>
                 </span>
               </div>
             </div>
@@ -1195,8 +1195,8 @@ export default function Content_chat() {
                   aria-expanded="false"
                   data-tw-toggle="dropdown"
                 >
-                  {" "}
-                  <i data-lucide="smile" className="w-full h-full" />{" "}
+                  
+                  <i data-lucide="smile" className="w-full h-full" />
                 </a>
                 <div className="chat-dropdown dropdown-menu">
                   <div className="dropdown-content">
@@ -5446,8 +5446,8 @@ export default function Content_chat() {
               href="javascript:;"
               className="w-8 h-8 sm:w-10 sm:h-10 block bg-primary text-white rounded-full flex-none flex items-center justify-center mr-5"
             >
-              {" "}
-              <i data-lucide="send" className="w-4 h-4" />{" "}
+              
+              <i data-lucide="send" className="w-4 h-4" />
             </a>
           </div>
         </div>

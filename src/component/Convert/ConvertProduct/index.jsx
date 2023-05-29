@@ -45,7 +45,7 @@ export default function ConvertProduct() {
               </svg>
             </div>
             <a className="notification sm:hidden" href="">
-              {" "}
+              
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
@@ -61,7 +61,7 @@ export default function ConvertProduct() {
               >
                 <circle cx={11} cy={11} r={8} />
                 <line x1={21} y1={21} x2="16.65" y2="16.65" />
-              </svg>{" "}
+              </svg>
             </a>
             <div className="search-result">
               <div className="search-result__content">
@@ -69,7 +69,7 @@ export default function ConvertProduct() {
                 <div className="mb-5">
                   <a href="" className="flex items-center">
                     <div className="w-8 h-8 bg-success/20 dark:bg-success/10 text-success flex items-center justify-center rounded-full">
-                      {" "}
+                      
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={24}
@@ -85,13 +85,13 @@ export default function ConvertProduct() {
                       >
                         <polyline points="22 12 16 12 14 15 10 15 8 12 2 12" />
                         <path d="M5.45 5.11L2 12v6a2 2 0 002 2h16a2 2 0 002-2v-6l-3.45-6.89A2 2 0 0016.76 4H7.24a2 2 0 00-1.79 1.11z" />
-                      </svg>{" "}
+                      </svg>
                     </div>
                     <div className="ml-3">Cài đặt thư</div>
                   </a>
                   <a href="" className="flex items-center mt-2">
                     <div className="w-8 h-8 bg-pending/10 text-pending flex items-center justify-center rounded-full">
-                      {" "}
+                      
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={24}
@@ -109,13 +109,13 @@ export default function ConvertProduct() {
                         <circle cx={9} cy={7} r={4} />
                         <path d="M23 21v-2a4 4 0 00-3-3.87" />
                         <path d="M16 3.13a4 4 0 010 7.75" />
-                      </svg>{" "}
+                      </svg>
                     </div>
                     <div className="ml-3">Người dùng &amp; Quyền</div>
                   </a>
                   <a href="" className="flex items-center mt-2">
                     <div className="w-8 h-8 bg-primary/10 dark:bg-primary/20 text-primary/80 flex items-center justify-center rounded-full">
-                      {" "}
+                      
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={24}
@@ -138,7 +138,7 @@ export default function ConvertProduct() {
                           ry={2}
                         />
                         <line x1={1} y1={10} x2={23} y2={10} />
-                      </svg>{" "}
+                      </svg>
                     </div>
                     <div className="ml-3">Báo cáo giao dịch</div>
                   </a>
@@ -263,7 +263,7 @@ export default function ConvertProduct() {
               aria-expanded="false"
               data-tw-toggle="dropdown"
             >
-              {" "}
+              
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
@@ -279,7 +279,7 @@ export default function ConvertProduct() {
               >
                 <path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9" />
                 <path d="M13.73 21a2 2 0 01-3.46 0" />
-              </svg>{" "}
+              </svg>
             </div>
             <div className="notification-content pt-2 dropdown-menu">
               <div className="notification-content__box dropdown-content">
@@ -308,7 +308,7 @@ export default function ConvertProduct() {
                     <div className="w-full truncate text-slate-500 mt-0.5">
                       It is a long established fact that a reader will be
                       distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem{" "}
+                      at its layout. The point of using Lorem
                     </div>
                   </div>
                 </div>
@@ -336,7 +336,7 @@ export default function ConvertProduct() {
                     <div className="w-full truncate text-slate-500 mt-0.5">
                       It is a long established fact that a reader will be
                       distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem{" "}
+                      at its layout. The point of using Lorem
                     </div>
                   </div>
                 </div>
@@ -454,7 +454,7 @@ export default function ConvertProduct() {
                 </li>
                 <li>
                   <a href="" className="dropdown-item hover:bg-white/5">
-                    {" "}
+                    
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -470,13 +470,13 @@ export default function ConvertProduct() {
                     >
                       <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
                       <circle cx={12} cy={7} r={4} />
-                    </svg>{" "}
-                    Profile{" "}
+                    </svg>
+                    Profile
                   </a>
                 </li>
                 <li>
                   <a href="" className="dropdown-item hover:bg-white/5">
-                    {" "}
+                    
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -492,13 +492,13 @@ export default function ConvertProduct() {
                     >
                       <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
                       <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
-                    </svg>{" "}
-                    Add Account{" "}
+                    </svg>
+                    Add Account
                   </a>
                 </li>
                 <li>
                   <a href="" className="dropdown-item hover:bg-white/5">
-                    {" "}
+                    
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -514,13 +514,13 @@ export default function ConvertProduct() {
                     >
                       <rect x={3} y={11} width={18} height={11} rx={2} ry={2} />
                       <path d="M7 11V7a5 5 0 0110 0v4" />
-                    </svg>{" "}
-                    Reset Password{" "}
+                    </svg>
+                    Reset Password
                   </a>
                 </li>
                 <li>
                   <a href="" className="dropdown-item hover:bg-white/5">
-                    {" "}
+                    
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -537,8 +537,8 @@ export default function ConvertProduct() {
                       <circle cx={12} cy={12} r={10} />
                       <path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3" />
                       <line x1={12} y1={17} x2="12.01" y2={17} />
-                    </svg>{" "}
-                    Help{" "}
+                    </svg>
+                    Help
                   </a>
                 </li>
                 <li>
@@ -546,7 +546,7 @@ export default function ConvertProduct() {
                 </li>
                 <li>
                   <a href="" className="dropdown-item hover:bg-white/5">
-                    {" "}
+                    
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -562,8 +562,8 @@ export default function ConvertProduct() {
                     >
                       <rect x={1} y={5} width={22} height={14} rx={7} ry={7} />
                       <circle cx={16} cy={12} r={3} />
-                    </svg>{" "}
-                    Logout{" "}
+                    </svg>
+                    Logout
                   </a>
                 </li>
               </ul>
@@ -583,7 +583,7 @@ export default function ConvertProduct() {
             <div className="intro-y box p-5">
               <div className="border border-slate-200/60 dark:border-darkmode-400 rounded-md p-5">
                 <div className="font-medium text-base flex items-center border-b border-slate-200/60 dark:border-darkmode-400 pb-5">
-                  {" "}
+                  
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={24}
@@ -598,8 +598,8 @@ export default function ConvertProduct() {
                     className="lucide lucide-chevron-down w-4 h-4 mr-2"
                   >
                     <polyline points="6 9 12 15 18 9" />
-                  </svg>{" "}
-                  Tải bài học lên{" "}
+                  </svg>
+                  Tải bài học lên
                 </div>
                 <div className="mt-5">
                   <div className="flex items-center text-slate-500">
@@ -623,19 +623,19 @@ export default function ConvertProduct() {
                       </svg>
                     </span>
                     <div className="ml-2">
-                      {" "}
+                      
                       <span className="mr-1">
                         {/*Avoid selling counterfeit products / violating
                         Intellectual Property Rights, so that your products are
   not deleted.*/}
-                      </span>{" "}
+                      </span>
                       <a
                         href="https://themeforest.net/item/midone-jquery-tailwindcss-html-admin-template/26366820"
                         className="text-primary font-medium"
                         target="blank"
                       >
                         Tìm hiểu thêm
-                      </a>{" "}
+                      </a>
                     </div>
                   </div>
                   <div className="form-inline items-start flex-col xl:flex-row mt-10">
@@ -668,7 +668,6 @@ export default function ConvertProduct() {
                             src="https://pluginicons.craft-cdn.com/image-resizer.svg?1518267494"
                           />
                           <div className="tooltip w-5 h-5 flex items-center justify-center absolute rounded-full text-white bg-danger right-0 top-0 -mr-2 -mt-2">
-                            {" "}
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={24}
@@ -684,111 +683,7 @@ export default function ConvertProduct() {
                             >
                               <line x1={18} y1={6} x2={6} y2={18} />
                               <line x1={6} y1={6} x2={18} y2={18} />
-                            </svg>{" "}
-                          </div>
-                        </div>
-                        <div className="col-span-5 md:col-span-2 h-28 relative image-fit cursor-pointer zoom-in">
-                          <img
-                            className="rounded-md"
-                            alt="Midone - HTML Admin Template"
-                            src="https://pluginicons.craft-cdn.com/image-resizer.svg?1518267494"
-                          />
-                          <div className="tooltip w-5 h-5 flex items-center justify-center absolute rounded-full text-white bg-danger right-0 top-0 -mr-2 -mt-2">
-                            {" "}
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              data-lucide="x"
-                              className="lucide lucide-x w-4 h-4"
-                            >
-                              <line x1={18} y1={6} x2={6} y2={18} />
-                              <line x1={6} y1={6} x2={18} y2={18} />
-                            </svg>{" "}
-                          </div>
-                        </div>
-                        <div className="col-span-5 md:col-span-2 h-28 relative image-fit cursor-pointer zoom-in">
-                          <img
-                            className="rounded-md"
-                            alt="Midone - HTML Admin Template"
-                            src="https://pluginicons.craft-cdn.com/image-resizer.svg?1518267494"
-                          />
-                          <div className="tooltip w-5 h-5 flex items-center justify-center absolute rounded-full text-white bg-danger right-0 top-0 -mr-2 -mt-2">
-                            {" "}
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              data-lucide="x"
-                              className="lucide lucide-x w-4 h-4"
-                            >
-                              <line x1={18} y1={6} x2={6} y2={18} />
-                              <line x1={6} y1={6} x2={18} y2={18} />
-                            </svg>{" "}
-                          </div>
-                        </div>
-                        <div className="col-span-5 md:col-span-2 h-28 relative image-fit cursor-pointer zoom-in">
-                          <img
-                            className="rounded-md"
-                            alt="Midone - HTML Admin Template"
-                            src="https://pluginicons.craft-cdn.com/image-resizer.svg?1518267494"
-                          />
-                          <div className="tooltip w-5 h-5 flex items-center justify-center absolute rounded-full text-white bg-danger right-0 top-0 -mr-2 -mt-2">
-                            {" "}
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              data-lucide="x"
-                              className="lucide lucide-x w-4 h-4"
-                            >
-                              <line x1={18} y1={6} x2={6} y2={18} />
-                              <line x1={6} y1={6} x2={18} y2={18} />
-                            </svg>{" "}
-                          </div>
-                        </div>
-                        <div className="col-span-5 md:col-span-2 h-28 relative image-fit cursor-pointer zoom-in">
-                          <img
-                            className="rounded-md"
-                            alt="Midone - HTML Admin Template"
-                            src="https://pluginicons.craft-cdn.com/image-resizer.svg?1518267494"
-                          />
-                          <div className="tooltip w-5 h-5 flex items-center justify-center absolute rounded-full text-white bg-danger right-0 top-0 -mr-2 -mt-2">
-                            {" "}
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              data-lucide="x"
-                              className="lucide lucide-x w-4 h-4"
-                            >
-                              <line x1={18} y1={6} x2={6} y2={18} />
-                              <line x1={6} y1={6} x2={18} y2={18} />
-                            </svg>{" "}
+                            </svg>
                           </div>
                         </div>
                       </div>
@@ -816,8 +711,8 @@ export default function ConvertProduct() {
                           />
                           <circle cx="8.5" cy="8.5" r="1.5" />
                           <polyline points="21 15 16 10 5 21" />
-                        </svg>{" "}
-                        <span className="text-primary mr-1">Tải lên bài học</span>{" "}
+                        </svg>
+                        <span className="text-primary mr-1">Tải lên bài học</span>
                         Kéo thả
                         <input
                           id="horizontal-form-1"
@@ -835,7 +730,7 @@ export default function ConvertProduct() {
             <div className="intro-y box p-5 mt-5">
               <div className="border border-slate-200/60 dark:border-darkmode-400 rounded-md p-5">
                 <div className="font-medium text-base flex items-center border-b border-slate-200/60 dark:border-darkmode-400 pb-5">
-                  {" "}
+                  
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={24}
@@ -850,8 +745,8 @@ export default function ConvertProduct() {
                     className="lucide lucide-chevron-down w-4 h-4 mr-2"
                   >
                     <polyline points="6 9 12 15 18 9" />
-                  </svg>{" "}
-                  Thông tin bài học{" "}
+                  </svg>
+                  Thông tin bài học
                 </div>
                 <div className="mt-5">
                   <div className="form-inline items-start flex-col xl:flex-row mt-5 pt-5 first:mt-0 first:pt-0">
@@ -864,8 +759,8 @@ export default function ConvertProduct() {
                           </div>
                         </div>
                         <div className="leading-relaxed text-slate-500 text-xs mt-3">
-                          {" "}
-                          Đặt tên bài học sao cho dễ nhớ thuận tiện cho việc tìm kiếm bài học.{" "}
+                          
+                          Đặt tên bài học sao cho dễ nhớ thuận tiện cho việc tìm kiếm bài học.
                         </div>
                       </div>
                     </div>
@@ -913,9 +808,9 @@ export default function ConvertProduct() {
                           <div className="font-medium">Thể loại môn học</div>
                         </div>
                         <div className="leading-relaxed text-slate-500 text-xs mt-3">
-                          {" "}
+                          
                           Bạn có thể thêm một thể loại môn học mới hoặc chọn từ
-                          danh sách các thể loại hiện có. Nhằm sắp xếp bài học gọn gàng và dễ tìm hơn.{" "}
+                          danh sách các thể loại hiện có. Nhằm sắp xếp bài học gọn gàng và dễ tìm hơn.
                         </div>
                       </div>
                     </div>
@@ -1003,12 +898,12 @@ export default function ConvertProduct() {
             <div className="pt-10 sticky top-0">
               <ul className="text-slate-500 relative before:content-[''] before:w-[2px] before:bg-slate-200 before:dark:bg-darkmode-600 before:h-full before:absolute before:left-0 before:z-[-1]">
                 <li className="mb-4 border-l-2 pl-5 border-primary dark:border-primary text-primary font-medium">
-                  {" "}
-                  <a href="">Tải bài học lên</a>{" "}
+                  
+                  <a href="">Tải bài học lên</a>
                 </li>
                 <li className="mb-4 border-l-2 pl-5 border-transparent dark:border-transparent">
-                  {" "}
-                  <a href="">Thông tin bài học</a>{" "}
+                  
+                  <a href="">Thông tin bài học</a>
                 </li>
                 
               </ul>

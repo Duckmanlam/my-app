@@ -26,7 +26,7 @@ export default function Menu() {
                         <li>
                           <a href="#" className="menu menu--active">
                             <div className="menu__icon">
-                              {" "}
+                              
                               <img
                                 src="https://lh3.google.com/u/0/d/1ngGjPxW6wsIH913d7jUuRFn9ezVpPOkU=w1920-h902-iv1"
                                 alt=""
@@ -39,7 +39,7 @@ export default function Menu() {
                         <li>
                           <a href="#" className="menu">
                             <div className="menu__icon">
-                              {" "}
+                              
                               <img
                                 src="https://lh3.google.com/u/0/d/1ngGjPxW6wsIH913d7jUuRFn9ezVpPOkU=w1920-h902-iv1"
                                 alt=""
@@ -67,7 +67,7 @@ export default function Menu() {
                             className="menu"
                           >
                             <div className="menu__icon">
-                              {" "}
+                              
                               <img
                                 src="https://lh3.google.com/u/0/d/1ngGjPxW6wsIH913d7jUuRFn9ezVpPOkU=w1920-h902-iv1"
                                 alt=""
@@ -83,12 +83,12 @@ export default function Menu() {
                             className="menu"
                           >
                             <div className="menu__icon">
-                              {" "}
+                              
                               <img
                                 src="https://lh3.google.com/u/0/d/1ngGjPxW6wsIH913d7jUuRFn9ezVpPOkU=w1920-h902-iv1"
                                 alt=""
                                 className="w-6"
-                              />{" "}
+                              />
                             </div>
                             <div className="menu__title"> Point of Sale </div>
                           </a>
