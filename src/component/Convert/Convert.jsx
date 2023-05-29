@@ -45,7 +45,7 @@ export default function Convert() {
               </svg>
             </div>
             <a className="notification sm:hidden" href="">
-              
+
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
@@ -69,7 +69,7 @@ export default function Convert() {
                 <div className="mb-5">
                   <a href="" className="flex items-center">
                     <div className="w-8 h-8 bg-success/20 dark:bg-success/10 text-success flex items-center justify-center rounded-full">
-                      
+
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={24}
@@ -91,7 +91,7 @@ export default function Convert() {
                   </a>
                   <a href="" className="flex items-center mt-2">
                     <div className="w-8 h-8 bg-pending/10 text-pending flex items-center justify-center rounded-full">
-                      
+
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={24}
@@ -115,7 +115,7 @@ export default function Convert() {
                   </a>
                   <a href="" className="flex items-center mt-2">
                     <div className="w-8 h-8 bg-primary/10 dark:bg-primary/20 text-primary/80 flex items-center justify-center rounded-full">
-                      
+
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={24}
@@ -263,7 +263,7 @@ export default function Convert() {
               aria-expanded="false"
               data-tw-toggle="dropdown"
             >
-              
+
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
@@ -438,7 +438,7 @@ export default function Convert() {
             >
               <img
                 alt="Midone - HTML Admin Template"
-                src="https://lh3.google.com/u/0/d/1ngGjPxW6wsIH913d7jUuRFn9ezVpPOkU=w1920-h902-iv1"
+                src="https://res.cloudinary.com/dcnzwz9sp/image/upload/v1685376876/logo_mo6gxg.png"
               />
             </div>
             <div className="dropdown-menu w-56">
@@ -454,7 +454,7 @@ export default function Convert() {
                 </li>
                 <li>
                   <a href="" className="dropdown-item hover:bg-white/5">
-                    
+
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -476,7 +476,7 @@ export default function Convert() {
                 </li>
                 <li>
                   <a href="" className="dropdown-item hover:bg-white/5">
-                    
+
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -498,7 +498,7 @@ export default function Convert() {
                 </li>
                 <li>
                   <a href="" className="dropdown-item hover:bg-white/5">
-                    
+
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -520,7 +520,7 @@ export default function Convert() {
                 </li>
                 <li>
                   <a href="" className="dropdown-item hover:bg-white/5">
-                    
+
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -546,7 +546,7 @@ export default function Convert() {
                 </li>
                 <li>
                   <a href="" className="dropdown-item hover:bg-white/5">
-                    
+
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -583,7 +583,7 @@ export default function Convert() {
             <div className="intro-y box p-5">
               <div className="border border-slate-200/60 dark:border-darkmode-400 rounded-md p-5">
                 <div className="font-medium text-base flex items-center border-b border-slate-200/60 dark:border-darkmode-400 pb-5">
-                  
+
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={24}
@@ -623,9 +623,9 @@ export default function Convert() {
                       </svg>
                     </span>
                     <div className="ml-2">
-                      
+
                       <span className="mr-1">
-                        
+
                       </span>
                       <a
                         href="https://themeforest.net/item/midone-jquery-tailwindcss-html-admin-template/26366820"
@@ -667,7 +667,7 @@ export default function Convert() {
                             src="https://pluginicons.craft-cdn.com/image-resizer.svg?1518267494"
                           />
                           <div className="tooltip w-5 h-5 flex items-center justify-center absolute rounded-full text-white bg-danger right-0 top-0 -mr-2 -mt-2">
-                            
+
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={24}
@@ -693,7 +693,7 @@ export default function Convert() {
                             src="https://pluginicons.craft-cdn.com/image-resizer.svg?1518267494"
                           />
                           <div className="tooltip w-5 h-5 flex items-center justify-center absolute rounded-full text-white bg-danger right-0 top-0 -mr-2 -mt-2">
-                            
+
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={24}
@@ -719,7 +719,7 @@ export default function Convert() {
                             src="https://pluginicons.craft-cdn.com/image-resizer.svg?1518267494"
                           />
                           <div className="tooltip w-5 h-5 flex items-center justify-center absolute rounded-full text-white bg-danger right-0 top-0 -mr-2 -mt-2">
-                            
+
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={24}
@@ -745,7 +745,7 @@ export default function Convert() {
                             src="https://pluginicons.craft-cdn.com/image-resizer.svg?1518267494"
                           />
                           <div className="tooltip w-5 h-5 flex items-center justify-center absolute rounded-full text-white bg-danger right-0 top-0 -mr-2 -mt-2">
-                            
+
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={24}
@@ -771,7 +771,7 @@ export default function Convert() {
                             src="https://pluginicons.craft-cdn.com/image-resizer.svg?1518267494"
                           />
                           <div className="tooltip w-5 h-5 flex items-center justify-center absolute rounded-full text-white bg-danger right-0 top-0 -mr-2 -mt-2">
-                            
+
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={24}
@@ -834,7 +834,7 @@ export default function Convert() {
             <div className="intro-y box p-5 mt-5">
               <div className="border border-slate-200/60 dark:border-darkmode-400 rounded-md p-5">
                 <div className="font-medium text-base flex items-center border-b border-slate-200/60 dark:border-darkmode-400 pb-5">
-                  
+
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={24}
@@ -850,7 +850,7 @@ export default function Convert() {
                   >
                     <polyline points="6 9 12 15 18 9" />
                   </svg>
-                  Thông tin bài học 
+                  Thông tin bài học
                 </div>
                 <div className="mt-5">
                   <div className="form-inline items-start flex-col xl:flex-row mt-5 pt-5 first:mt-0 first:pt-0">
@@ -863,7 +863,7 @@ export default function Convert() {
                           </div>
                         </div>
                         <div className="leading-relaxed text-slate-500 text-xs mt-3">
-                          
+
                           Tối đa 40 ký tự, nhằm giúp cho người học dễ dàng tìm thấy được môn học
                         </div>
                       </div>
@@ -876,7 +876,7 @@ export default function Convert() {
                         placeholder="Product name"
                       />
                       <div className="form-help text-right">
-                      Ký tự tối đa 0/70
+                        Ký tự tối đa 0/70
                       </div>
                     </div>
                   </div>
@@ -912,7 +912,7 @@ export default function Convert() {
                           <div className="font-medium">Loại bài học</div>
                         </div>
                         <div className="leading-relaxed text-slate-500 text-xs mt-3">
-                          
+
                           Bạn có thể thêm một thể loại mới hoặc chọn từ
                           danh sách thể loại hiện có.
                         </div>
@@ -931,7 +931,7 @@ export default function Convert() {
                           Lịch sử Đảng
                         </option>
                         <option value="Kids & Baby" selected="true">
-                        Lịch sử Đảng là...
+                          Lịch sử Đảng là...
                         </option>
                       </select>
                       <div
@@ -951,7 +951,7 @@ export default function Convert() {
                             </a>
                           </div>
                           <div data-value="Kids & Baby" className="item">
-                          Tư tưởng Hồ Chí Minh là...
+                            Tư tưởng Hồ Chí Minh là...
                             <a
                               href="javascript:void(0)"
                               className="remove"
@@ -991,25 +991,25 @@ export default function Convert() {
                 </div>
               </div>
               <div className="flex justify-end flex-col md:flex-row gap-2 mt-5">
-                            <button type="button" className="btn py-3 border-slate-300 dark:border-darkmode-400 text-slate-500 w-full md:w-52">Cancel</button>
-                            <button type="button" className="btn py-3 border-slate-300 dark:border-darkmode-400 text-slate-500 w-full md:w-52">Save &amp; Add New Product</button>
-                            <button type="button" className="btn py-3 btn-primary w-full md:w-52">Lưu</button>
-                        </div>
+                <button type="button" className="btn py-3 border-slate-300 dark:border-darkmode-400 text-slate-500 w-full md:w-52">Cancel</button>
+                <button type="button" className="btn py-3 border-slate-300 dark:border-darkmode-400 text-slate-500 w-full md:w-52">Save &amp; Add New Product</button>
+                <button type="button" className="btn py-3 btn-primary w-full md:w-52">Lưu</button>
+              </div>
             </div>
-           
+
           </div>
           <div className="intro-y col-span-2 hidden 2xl:block">
             <div className="pt-10 sticky top-0">
               <ul className="text-slate-500 relative before:content-[''] before:w-[2px] before:bg-slate-200 before:dark:bg-darkmode-600 before:h-full before:absolute before:left-0 before:z-[-1]">
                 <li className="mb-4 border-l-2 pl-5 border-primary dark:border-primary text-primary font-medium">
-                  
+
                   <a href="">Tải bài học lên</a>
                 </li>
                 <li className="mb-4 border-l-2 pl-5 border-transparent dark:border-transparent">
-                  
+
                   <a href="">Thông tin bài học</a>
                 </li>
-                
+
               </ul>
             </div>
           </div>

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-
 export default function Mg_content(props) {
   return (
     <>
@@ -122,13 +121,12 @@ export default function Mg_content(props) {
                     <div className="text-slate-500 text-xs text-center mt-0.5">
                       {item?.size}
                     </div>
-                    {/* <div className="dropdown-menu w-40">
-                      A
+                    <div className="dropdown-menu w-40">
                       <ul className="dropdown-content">
                         <li>
                           <a href="" className="dropdown-item">
-                            <i data-lucide="users" className="w-4 h-4 mr-2" /> Share
-                            File
+                            <i data-lucide="users" className="w-4 h-4 mr-2" />
+                            Share File
                           </a>
                         </li>
                         <li>
@@ -136,11 +134,12 @@ export default function Mg_content(props) {
                             <i
                               data-lucide="trash"
                               className="w-4 h-4 mr-2"
-                            /> Delete
+                            />
+                            Delete
                           </a>
                         </li>
                       </ul>
-                    </div> */}
+                    </div>
                   </div>
                 </a>
               }

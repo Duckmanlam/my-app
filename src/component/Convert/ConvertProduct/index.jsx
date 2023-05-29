@@ -1,4 +1,47 @@
+import React from "react";
+import Api from "../../../api/apis";
+
 export default function ConvertProduct() {
+  const [fileUpload, setFileUpload] = React.useState([]);
+
+  const handleChange = (event) => {
+    const files = event.target.files;
+    const updatedFiles = [...fileUpload];
+
+    for (const file of files) {
+      updatedFiles.push(file);
+    }
+
+    setFileUpload(updatedFiles);
+  };
+
+  const handleRemoveFile = (index) => {
+    const updatedFiles = [...fileUpload];
+    updatedFiles.splice(index, 1);
+    setFileUpload(updatedFiles);
+  };
+
+  const handleSubmit = async () => {
+    // Handle form submission logic
+    alert("Uploading...")
+    try {
+      const formData = new FormData();
+      for (const file of fileUpload) {
+        formData.append('file', file);
+      }
+
+      const response = await Api.uploadFile(formData);
+      // Handle the response and any further actions
+      console.log('Upload successful:', response.data);
+      if (response) {
+        window.location.href = "/manager";
+      }
+
+    } catch (error) {
+      console.error('Error uploading files:', error);
+    }
+  };
+
   return (
     <div>
       <div className="content">
@@ -45,7 +88,7 @@ export default function ConvertProduct() {
               </svg>
             </div>
             <a className="notification sm:hidden" href="">
-              
+
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
@@ -69,7 +112,7 @@ export default function ConvertProduct() {
                 <div className="mb-5">
                   <a href="" className="flex items-center">
                     <div className="w-8 h-8 bg-success/20 dark:bg-success/10 text-success flex items-center justify-center rounded-full">
-                      
+
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={24}
@@ -91,7 +134,7 @@ export default function ConvertProduct() {
                   </a>
                   <a href="" className="flex items-center mt-2">
                     <div className="w-8 h-8 bg-pending/10 text-pending flex items-center justify-center rounded-full">
-                      
+
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={24}
@@ -115,7 +158,7 @@ export default function ConvertProduct() {
                   </a>
                   <a href="" className="flex items-center mt-2">
                     <div className="w-8 h-8 bg-primary/10 dark:bg-primary/20 text-primary/80 flex items-center justify-center rounded-full">
-                      
+
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={24}
@@ -150,7 +193,7 @@ export default function ConvertProduct() {
                       <img
                         alt="Midone - HTML Admin Template"
                         className="rounded-full"
-                        src="dist/images/profile-9.jpg"
+                        src="dist/fileUpload/profile-9.jpg"
                       />
                     </div>
                     <div className="ml-3">Robert De Niro</div>
@@ -163,7 +206,7 @@ export default function ConvertProduct() {
                       <img
                         alt="Midone - HTML Admin Template"
                         className="rounded-full"
-                        src="dist/images/profile-13.jpg"
+                        src="dist/fileUpload/profile-13.jpg"
                       />
                     </div>
                     <div className="ml-3">Russell Crowe</div>
@@ -176,7 +219,7 @@ export default function ConvertProduct() {
                       <img
                         alt="Midone - HTML Admin Template"
                         className="rounded-full"
-                        src="dist/images/profile-11.jpg"
+                        src="dist/fileUpload/profile-11.jpg"
                       />
                     </div>
                     <div className="ml-3">Leonardo DiCaprio</div>
@@ -189,7 +232,7 @@ export default function ConvertProduct() {
                       <img
                         alt="Midone - HTML Admin Template"
                         className="rounded-full"
-                        src="dist/images/profile-15.jpg"
+                        src="dist/fileUpload/profile-15.jpg"
                       />
                     </div>
                     <div className="ml-3">Denzel Washington</div>
@@ -204,7 +247,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/images/preview-9.jpg"
+                      src="dist/fileUpload/preview-9.jpg"
                     />
                   </div>
                   <div className="ml-3">Dell XPS 13</div>
@@ -217,7 +260,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/images/preview-7.jpg"
+                      src="dist/fileUpload/preview-7.jpg"
                     />
                   </div>
                   <div className="ml-3">Sony Master Series A9G</div>
@@ -230,7 +273,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/images/preview-14.jpg"
+                      src="dist/fileUpload/preview-14.jpg"
                     />
                   </div>
                   <div className="ml-3">Oppo Find X2 Pro</div>
@@ -243,7 +286,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/images/preview-8.jpg"
+                      src="dist/fileUpload/preview-8.jpg"
                     />
                   </div>
                   <div className="ml-3">Samsung Galaxy S20 Ultra</div>
@@ -263,7 +306,7 @@ export default function ConvertProduct() {
               aria-expanded="false"
               data-tw-toggle="dropdown"
             >
-              
+
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
@@ -289,7 +332,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/images/profile-9.jpg"
+                      src="dist/fileUpload/profile-9.jpg"
                     />
                     <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
                   </div>
@@ -317,7 +360,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/images/profile-13.jpg"
+                      src="dist/fileUpload/profile-13.jpg"
                     />
                     <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
                   </div>
@@ -345,7 +388,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/images/profile-11.jpg"
+                      src="dist/fileUpload/profile-11.jpg"
                     />
                     <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
                   </div>
@@ -373,7 +416,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/images/profile-15.jpg"
+                      src="dist/fileUpload/profile-15.jpg"
                     />
                     <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
                   </div>
@@ -401,7 +444,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/images/profile-7.jpg"
+                      src="dist/fileUpload/profile-7.jpg"
                     />
                     <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
                   </div>
@@ -438,7 +481,7 @@ export default function ConvertProduct() {
             >
               <img
                 alt="Midone - HTML Admin Template"
-                src="https://lh3.google.com/u/0/d/1ngGjPxW6wsIH913d7jUuRFn9ezVpPOkU=w1920-h902-iv1"
+                src="https://res.cloudinary.com/dcnzwz9sp/image/upload/v1685376876/logo_mo6gxg.png"
               />
             </div>
             <div className="dropdown-menu w-56">
@@ -454,7 +497,7 @@ export default function ConvertProduct() {
                 </li>
                 <li>
                   <a href="" className="dropdown-item hover:bg-white/5">
-                    
+
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -476,7 +519,7 @@ export default function ConvertProduct() {
                 </li>
                 <li>
                   <a href="" className="dropdown-item hover:bg-white/5">
-                    
+
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -498,7 +541,7 @@ export default function ConvertProduct() {
                 </li>
                 <li>
                   <a href="" className="dropdown-item hover:bg-white/5">
-                    
+
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -520,7 +563,7 @@ export default function ConvertProduct() {
                 </li>
                 <li>
                   <a href="" className="dropdown-item hover:bg-white/5">
-                    
+
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -546,7 +589,7 @@ export default function ConvertProduct() {
                 </li>
                 <li>
                   <a href="" className="dropdown-item hover:bg-white/5">
-                    
+
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -583,7 +626,6 @@ export default function ConvertProduct() {
             <div className="intro-y box p-5">
               <div className="border border-slate-200/60 dark:border-darkmode-400 rounded-md p-5">
                 <div className="font-medium text-base flex items-center border-b border-slate-200/60 dark:border-darkmode-400 pb-5">
-                  
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={24}
@@ -623,11 +665,7 @@ export default function ConvertProduct() {
                       </svg>
                     </span>
                     <div className="ml-2">
-                      
                       <span className="mr-1">
-                        {/*Avoid selling counterfeit products / violating
-                        Intellectual Property Rights, so that your products are
-  not deleted.*/}
                       </span>
                       <a
                         href="https://themeforest.net/item/midone-jquery-tailwindcss-html-admin-template/26366820"
@@ -649,45 +687,68 @@ export default function ConvertProduct() {
                         </div>
                         <div className="leading-relaxed text-slate-500 text-xs mt-3">
                           <div>
-                          Định dạng hình ảnh là png và tối thiểu
+                            Định dạng hình ảnh là png và tối thiểu
                             kích thước 300 x 300 pixel (Để có hình ảnh tối ưu, hãy sử dụng
                             kích thước tối thiểu 700 x 700 pixel).
                           </div>
-                          <div className="mt-2">                           
-                          Chọn ảnh bài học hoặc kéo thả tối đa 20 hình ảnh cùng một lúc ở đây.
+                          <div className="mt-2">
+                            Chọn ảnh bài học hoặc kéo thả tối đa 20 hình ảnh cùng một lúc ở đây.
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="w-full mt-3 xl:mt-0 flex-1 border-2 border-dashed dark:border-darkmode-400 rounded-md pt-4">
                       <div className="grid grid-cols-10 gap-5 pl-4 pr-5">
-                        <div className="col-span-5 md:col-span-2 h-28 relative image-fit cursor-pointer zoom-in">
-                          <img
-                            className="rounded-md"
-                            alt="Midone - HTML Admin Template"
-                            src="https://pluginicons.craft-cdn.com/image-resizer.svg?1518267494"
-                          />
-                          <div className="tooltip w-5 h-5 flex items-center justify-center absolute rounded-full text-white bg-danger right-0 top-0 -mr-2 -mt-2">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              data-lucide="x"
-                              className="lucide lucide-x w-4 h-4"
-                            >
-                              <line x1={18} y1={6} x2={6} y2={18} />
-                              <line x1={6} y1={6} x2={18} y2={18} />
-                            </svg>
-                          </div>
-                        </div>
+                        {
+                          fileUpload?.map((item, index) => {
+                            return (
+                              <div key={index} className="col-span-5 md:col-span-2 h-28 relative image-fit cursor-pointer zoom-in">
+                                {item.type.startsWith('image/') ? (
+                                  <img
+                                    className="rounded-md"
+                                    alt="Image"
+                                    src={URL.createObjectURL(item)}
+                                  />
+                                ) : item.type === 'application/pdf' ? (
+                                  <div className="pdf-placeholder">
+                                    <div className="flex justify-center mb-5">
+                                      <img
+                                        width="95px"
+                                        className="pdf-icon"
+                                        alt="PDF Icon"
+                                        src="https://res.cloudinary.com/dcnzwz9sp/image/upload/v1685377542/pdficon_tayxsd.png" // Replace with the actual PDF icon URL
+                                      />
+                                    </div>
+                                    <span>{item.name.slice(0, 16) + "..."}</span>
+                                  </div>
+                                ) : (
+                                  <div className="placeholder">File type not supported</div>
+                                )}
+                                <div onClick={() => handleRemoveFile(index)} className="tooltip w-5 h-5 flex items-center justify-center absolute rounded-full text-white bg-danger right-0 top-0 -mr-2 -mt-2">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={24}
+                                    height={24}
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    strokeWidth={2}
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    data-lucide="x"
+                                    className="lucide lucide-x w-4 h-4"
+                                  >
+                                    <line x1={18} y1={6} x2={6} y2={18} />
+                                    <line x1={6} y1={6} x2={18} y2={18} />
+                                  </svg>
+                                </div>
+                              </div>
+                            )
+                          })
+                        }
                       </div>
-                      <div className="px-4 pb-4 mt-5 flex items-center justify-center cursor-pointer relative">
+                      {/* Input */}
+                      <div className="px-4 pb-4 mt-10 flex items-center justify-center cursor-pointer relative">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={24}
@@ -712,16 +773,19 @@ export default function ConvertProduct() {
                           <circle cx="8.5" cy="8.5" r="1.5" />
                           <polyline points="21 15 16 10 5 21" />
                         </svg>
-                        <span className="text-primary mr-1">Tải lên bài học</span>
-                        Kéo thả
+                        <span className="text-primary mr-1">Upload tài liệu</span>
+                        (Kéo thả)
                         <input
                           id="horizontal-form-1"
                           type="file"
                           className="w-full h-full top-0 left-0 absolute opacity-0"
+                          multiple // Allow selecting multiple files
+                          onChange={handleChange}
                         />
                       </div>
                     </div>
                   </div>
+
                 </div>
               </div>
             </div>
@@ -730,7 +794,6 @@ export default function ConvertProduct() {
             <div className="intro-y box p-5 mt-5">
               <div className="border border-slate-200/60 dark:border-darkmode-400 rounded-md p-5">
                 <div className="font-medium text-base flex items-center border-b border-slate-200/60 dark:border-darkmode-400 pb-5">
-                  
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={24}
@@ -759,7 +822,7 @@ export default function ConvertProduct() {
                           </div>
                         </div>
                         <div className="leading-relaxed text-slate-500 text-xs mt-3">
-                          
+
                           Đặt tên bài học sao cho dễ nhớ thuận tiện cho việc tìm kiếm bài học.
                         </div>
                       </div>
@@ -808,7 +871,7 @@ export default function ConvertProduct() {
                           <div className="font-medium">Thể loại môn học</div>
                         </div>
                         <div className="leading-relaxed text-slate-500 text-xs mt-3">
-                          
+
                           Bạn có thể thêm một thể loại môn học mới hoặc chọn từ
                           danh sách các thể loại hiện có. Nhằm sắp xếp bài học gọn gàng và dễ tìm hơn.
                         </div>
@@ -887,25 +950,25 @@ export default function ConvertProduct() {
                 </div>
               </div>
               <div className="flex justify-end flex-col md:flex-row gap-2 mt-5">
-                            <button type="button" className="btn py-3 border-slate-300 dark:border-darkmode-400 text-slate-500 w-full md:w-52">Hủy</button>
-                            <button type="button" className="btn py-3 border-slate-300 dark:border-darkmode-400 text-slate-500 w-full md:w-52">Lưu &amp; Thêm bài học mới</button>
-                            <button type="button" className="btn py-3 btn-primary w-full md:w-52">Lưu bài học</button>
-                        </div>
+                <button type="button" className="btn py-3 border-slate-300 dark:border-darkmode-400 text-slate-500 w-full md:w-52">Hủy</button>
+                <button type="button" className="btn py-3 border-slate-300 dark:border-darkmode-400 text-slate-500 w-full md:w-52">Lưu &amp; Thêm bài học mới</button>
+                <button type="button" className="btn py-3 btn-primary w-full md:w-52" onClick={handleSubmit}>Lưu bài học</button>
+              </div>
             </div>
-           
+
           </div>
           <div className="intro-y col-span-2 hidden 2xl:block">
             <div className="pt-10 sticky top-0">
               <ul className="text-slate-500 relative before:content-[''] before:w-[2px] before:bg-slate-200 before:dark:bg-darkmode-600 before:h-full before:absolute before:left-0 before:z-[-1]">
                 <li className="mb-4 border-l-2 pl-5 border-primary dark:border-primary text-primary font-medium">
-                  
+
                   <a href="">Tải bài học lên</a>
                 </li>
                 <li className="mb-4 border-l-2 pl-5 border-transparent dark:border-transparent">
-                  
+
                   <a href="">Thông tin bài học</a>
                 </li>
-                
+
               </ul>
             </div>
           </div>
