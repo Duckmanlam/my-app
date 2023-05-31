@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 export default function Mg_content(props) {
   return (
@@ -18,6 +20,7 @@ export default function Mg_content(props) {
             className="inbox-filter dropdown absolute inset-y-0 mr-3 right-0 flex items-center"
             data-tw-placement="bottom-start"
           >
+            <FontAwesomeIcon icon={faMagnifyingGlass} />
             <i
               className="dropdown-toggle w-4 h-4 cursor-pointer text-slate-500"
               role="button"

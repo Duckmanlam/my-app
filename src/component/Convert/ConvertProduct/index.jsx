@@ -1,6 +1,16 @@
 import React from "react";
 import Api from "../../../api/apis";
 
+import Profile_9 from "../../../Lib/images/profile-9.jpg";
+import Profile_13 from "../../../Lib/images/profile-13.jpg";
+import Profile_11 from "../../../Lib/images/profile-11.jpg";
+import Profile_15 from "../../../Lib/images/profile-15.jpg";
+import Profile_7 from "../../../Lib/images/profile-7.jpg";
+import Preview_9 from "../../../Lib/images/preview-9.jpg";
+import Preview_7 from "../../../Lib/images/preview-7.jpg";
+import Preview_14 from "../../../Lib/images/preview-14.jpg";
+import Preview_8 from "../../../Lib/images/preview-8.jpg";
+
 export default function ConvertProduct() {
   const [fileUpload, setFileUpload] = React.useState([]);
 
@@ -193,7 +203,7 @@ export default function ConvertProduct() {
                       <img
                         alt="Midone - HTML Admin Template"
                         className="rounded-full"
-                        src="dist/fileUpload/profile-9.jpg"
+                        src={Profile_9}
                       />
                     </div>
                     <div className="ml-3">Robert De Niro</div>
@@ -206,7 +216,7 @@ export default function ConvertProduct() {
                       <img
                         alt="Midone - HTML Admin Template"
                         className="rounded-full"
-                        src="dist/fileUpload/profile-13.jpg"
+                        src={Profile_13}
                       />
                     </div>
                     <div className="ml-3">Russell Crowe</div>
@@ -219,7 +229,7 @@ export default function ConvertProduct() {
                       <img
                         alt="Midone - HTML Admin Template"
                         className="rounded-full"
-                        src="dist/fileUpload/profile-11.jpg"
+                        src={Profile_11}
                       />
                     </div>
                     <div className="ml-3">Leonardo DiCaprio</div>
@@ -232,7 +242,7 @@ export default function ConvertProduct() {
                       <img
                         alt="Midone - HTML Admin Template"
                         className="rounded-full"
-                        src="dist/fileUpload/profile-15.jpg"
+                        src={Profile_15}
                       />
                     </div>
                     <div className="ml-3">Denzel Washington</div>
@@ -247,7 +257,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/fileUpload/preview-9.jpg"
+                      src={Preview_9}
                     />
                   </div>
                   <div className="ml-3">Dell XPS 13</div>
@@ -260,7 +270,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/fileUpload/preview-7.jpg"
+                      src={Preview_7}
                     />
                   </div>
                   <div className="ml-3">Sony Master Series A9G</div>
@@ -273,7 +283,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/fileUpload/preview-14.jpg"
+                      src={Preview_14}
                     />
                   </div>
                   <div className="ml-3">Oppo Find X2 Pro</div>
@@ -286,7 +296,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/fileUpload/preview-8.jpg"
+                      src={Preview_8}
                     />
                   </div>
                   <div className="ml-3">Samsung Galaxy S20 Ultra</div>
@@ -332,7 +342,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/fileUpload/profile-9.jpg"
+                      src={Profile_9}
                     />
                     <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
                   </div>
@@ -360,7 +370,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/fileUpload/profile-13.jpg"
+                      src={Profile_13}
                     />
                     <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
                   </div>
@@ -388,7 +398,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/fileUpload/profile-11.jpg"
+                      src={Profile_11}
                     />
                     <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
                   </div>
@@ -416,7 +426,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/fileUpload/profile-15.jpg"
+                      src={Profile_15}
                     />
                     <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
                   </div>
@@ -444,7 +454,7 @@ export default function ConvertProduct() {
                     <img
                       alt="Midone - HTML Admin Template"
                       className="rounded-full"
-                      src="dist/fileUpload/profile-7.jpg"
+                      src={Profile_7}
                     />
                     <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
                   </div>

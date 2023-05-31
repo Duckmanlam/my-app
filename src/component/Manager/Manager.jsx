@@ -3,6 +3,8 @@ import Api from "../../api/apis";
 import Categories from "../Categories";
 import Menu from "../Menu";
 import Mg_content from "./Mg_content";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBell, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 export default function Manager() {
 
@@ -21,17 +23,16 @@ export default function Manager() {
           {/* BEGIN: Top Bar */}
           <div className="top-bar">
             {/* BEGIN: Breadcrumb */}
-            <nav aria-label="breadcrumb" className="-intro-x mr-auto hidden sm:flex">
+            <nav
+              aria-label="breadcrumb"
+              className="-intro-x mr-auto hidden sm:flex"
+            >
               <ol className="breadcrumb">
                 <li className="breadcrumb-item">
-                  <a href="#">Application</a>
+                  <a href="#">Ứng dụng</a>
                 </li>
-                <li className="breadcrumb-item active" aria-current="page">
-                  Dashboard
-                </li>
-                <li className="breadcrumb-item active" aria-current="page">
-                  Tên bài học
-                </li>
+                <li className="breadcrumb-item active" aria-current="page">Bảng điều khiển</li>
+                <li className="breadcrumb-item active" aria-current="page">Tên bài học</li>
               </ol>
             </nav>
             {/* END: Breadcrumb */}
@@ -43,7 +44,10 @@ export default function Manager() {
                   className="search__input form-control border-transparent"
                   placeholder="Search..."
                 />
-                <i data-lucide="search" className="search__icon dark:text-slate-500" />
+                <FontAwesomeIcon
+                  icon={faMagnifyingGlass}
+                  className="search__icon dark:text-slate-500"
+                />
               </div>
               <a className="notification sm:hidden" href="">
 
@@ -54,21 +58,21 @@ export default function Manager() {
               </a>
               <div className="search-result">
                 <div className="search-result__content">
-                  <div className="search-result__content__title">Pages</div>
+                  <div className="search-result__content__title">Trang</div>
                   <div className="mb-5">
                     <a href="" className="flex items-center">
                       <div className="w-8 h-8 bg-success/20 dark:bg-success/10 text-success flex items-center justify-center rounded-full">
 
                         <i className="w-4 h-4" data-lucide="inbox" />
                       </div>
-                      <div className="ml-3">Mail Settings</div>
+                      <div className="ml-3">Cài đặt thư</div>
                     </a>
                     <a href="" className="flex items-center mt-2">
                       <div className="w-8 h-8 bg-pending/10 text-pending flex items-center justify-center rounded-full">
 
                         <i className="w-4 h-4" data-lucide="users" />
                       </div>
-                      <div className="ml-3">Users &amp; Permissions</div>
+                      <div className="ml-3">Người dùng &amp; Quyền</div>
                     </a>
                     <a href="" className="flex items-center mt-2">
                       <div className="w-8 h-8 bg-primary/10 dark:bg-primary/20 text-primary/80 flex items-center justify-center rounded-full">
@@ -85,12 +89,12 @@ export default function Manager() {
                         <img
                           alt="Midone - HTML Admin Template"
                           className="rounded-full"
-                          src="../../Lib/images/profile-1.jpg"
+                          src="dist/images/profile-13.jpg"
                         />
                       </div>
-                      <div className="ml-3">Sylvester Stallone</div>
+                      <div className="ml-3">Kevin Spacey</div>
                       <div className="ml-auto w-48 truncate text-slate-500 text-xs text-right">
-                        sylvesterstallone@left4code.com
+                        kevinspacey@left4code.com
                       </div>
                     </a>
                     <a href="" className="flex items-center mt-2">
@@ -98,12 +102,12 @@ export default function Manager() {
                         <img
                           alt="Midone - HTML Admin Template"
                           className="rounded-full"
-                          src="../../Lib/images/profile-1.jpg"
+                          src="dist/images/profile-11.jpg"
                         />
                       </div>
-                      <div className="ml-3">Tom Hanks</div>
+                      <div className="ml-3">Denzel Washington</div>
                       <div className="ml-auto w-48 truncate text-slate-500 text-xs text-right">
-                        tomhanks@left4code.com
+                        denzelwashington@left4code.com
                       </div>
                     </a>
                     <a href="" className="flex items-center mt-2">
@@ -111,12 +115,12 @@ export default function Manager() {
                         <img
                           alt="Midone - HTML Admin Template"
                           className="rounded-full"
-                          src="../../Lib/images/profile-8.jpg"
+                          src="dist/images/profile-15.jpg"
                         />
                       </div>
-                      <div className="ml-3">Leonardo DiCaprio</div>
+                      <div className="ml-3">Christian Bale</div>
                       <div className="ml-auto w-48 truncate text-slate-500 text-xs text-right">
-                        leonardodicaprio@left4code.com
+                        christianbale@left4code.com
                       </div>
                     </a>
                     <a href="" className="flex items-center mt-2">
@@ -124,12 +128,12 @@ export default function Manager() {
                         <img
                           alt="Midone - HTML Admin Template"
                           className="rounded-full"
-                          src="../../Lib/images/profile-7.jpg"
+                          src="dist/images/profile-5.jpg"
                         />
                       </div>
-                      <div className="ml-3">Johnny Depp</div>
+                      <div className="ml-3">Tom Cruise</div>
                       <div className="ml-auto w-48 truncate text-slate-500 text-xs text-right">
-                        johnnydepp@left4code.com
+                        tomcruise@left4code.com
                       </div>
                     </a>
                   </div>
@@ -139,12 +143,12 @@ export default function Manager() {
                       <img
                         alt="Midone - HTML Admin Template"
                         className="rounded-full"
-                        src="../../Lib/images/preview-14.jpg"
+                        src="dist/images/preview-13.jpg"
                       />
                     </div>
-                    <div className="ml-3">Oppo Find X2 Pro</div>
+                    <div className="ml-3">Apple MacBook Pro 13</div>
                     <div className="ml-auto w-48 truncate text-slate-500 text-xs text-right">
-                      Smartphone &amp; Tablet
+                      PC &amp; Laptop
                     </div>
                   </a>
                   <a href="" className="flex items-center mt-2">
@@ -152,10 +156,23 @@ export default function Manager() {
                       <img
                         alt="Midone - HTML Admin Template"
                         className="rounded-full"
-                        src="../../Lib/images/preview-15.jpg"
+                        src="dist/images/preview-1.jpg"
                       />
                     </div>
-                    <div className="ml-3">Nike Tanjun</div>
+                    <div className="ml-3">Sony A7 III</div>
+                    <div className="ml-auto w-48 truncate text-slate-500 text-xs text-right">
+                      Photography
+                    </div>
+                  </a>
+                  <a href="." className="flex items-center mt-2">
+                    <div className="w-8 h-8 image-fit">
+                      <img
+                        alt="Midone - HTML Admin Template"
+                        className="rounded-full"
+                        src="dist/images/preview-1.jpg"
+                      />
+                    </div>
+                    <div className="ml-3">Nike Air Max 270</div>
                     <div className="ml-auto w-48 truncate text-slate-500 text-xs text-right">
                       Sport &amp; Outdoor
                     </div>
@@ -165,25 +182,12 @@ export default function Manager() {
                       <img
                         alt="Midone - HTML Admin Template"
                         className="rounded-full"
-                        src="../../Lib/images/preview-13.jpg"
+                        src="dist/images/preview-8.jpg"
                       />
                     </div>
-                    <div className="ml-3">Nikon Z6</div>
+                    <div className="ml-3">Sony A7 III</div>
                     <div className="ml-auto w-48 truncate text-slate-500 text-xs text-right">
                       Photography
-                    </div>
-                  </a>
-                  <a href="" className="flex items-center mt-2">
-                    <div className="w-8 h-8 image-fit">
-                      <img
-                        alt="Midone - HTML Admin Template"
-                        className="rounded-full"
-                        src="../../Lib/images/preview-9.jpg"
-                      />
-                    </div>
-                    <div className="ml-3">Samsung Q90 QLED TV</div>
-                    <div className="ml-auto w-48 truncate text-slate-500 text-xs text-right">
-                      Electronic
                     </div>
                   </a>
                 </div>
@@ -198,9 +202,7 @@ export default function Manager() {
                 aria-expanded="false"
                 data-tw-toggle="dropdown"
               >
-
-                <i
-                  data-lucide="bell"
+                <FontAwesomeIcon icon={faBell}
                   className="notification__icon dark:text-slate-500"
                 />
               </div>
@@ -212,114 +214,17 @@ export default function Manager() {
                       <img
                         alt="Midone - HTML Admin Template"
                         className="rounded-full"
-                        src="../../Lib/images/profile-1.jpg"
+                        src="dist/images/profile-13.jpg"
                       />
                       <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
                     </div>
                     <div className="ml-2 overflow-hidden">
                       <div className="flex items-center">
-                        <a href="javascript:;" className="font-medium truncate mr-5">
-                          Sylvester Stallone
-                        </a>
-                        <div className="text-xs text-slate-400 ml-auto whitespace-nowrap">
-                          06:05 AM
-                        </div>
-                      </div>
-                      <div className="w-full truncate text-slate-500 mt-0.5">
-                        Contrary to popular belief, Lorem Ipsum is not simply random
-                        text. It has roots in a piece of classical Latin literature from
-                        45 BC, making it over 20
-                      </div>
-                    </div>
-                  </div>
-                  <div className="cursor-pointer relative flex items-center mt-5">
-                    <div className="w-12 h-12 flex-none image-fit mr-1">
-                      <img
-                        alt="Midone - HTML Admin Template"
-                        className="rounded-full"
-                        src="../../Lib/images/profile-1.jpg"
-                      />
-                      <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
-                    </div>
-                    <div className="ml-2 overflow-hidden">
-                      <div className="flex items-center">
-                        <a href="javascript:;" className="font-medium truncate mr-5">
-                          Tom Hanks
-                        </a>
-                        <div className="text-xs text-slate-400 ml-auto whitespace-nowrap">
-                          05:09 AM
-                        </div>
-                      </div>
-                      <div className="w-full truncate text-slate-500 mt-0.5">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industrys standard dummy
-                        text ever since the 1500
-                      </div>
-                    </div>
-                  </div>
-                  <div className="cursor-pointer relative flex items-center mt-5">
-                    <div className="w-12 h-12 flex-none image-fit mr-1">
-                      <img
-                        alt="Midone - HTML Admin Template"
-                        className="rounded-full"
-                        src="../../Lib/images/profile-8.jpg"
-                      />
-                      <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
-                    </div>
-                    <div className="ml-2 overflow-hidden">
-                      <div className="flex items-center">
-                        <a href="javascript:;" className="font-medium truncate mr-5">
-                          Leonardo DiCaprio
-                        </a>
-                        <div className="text-xs text-slate-400 ml-auto whitespace-nowrap">
-                          06:05 AM
-                        </div>
-                      </div>
-                      <div className="w-full truncate text-slate-500 mt-0.5">
-                        It is a long established fact that a reader will be distracted
-                        by the readable content of a page when looking at its layout.
-                        The point of using Lorem
-                      </div>
-                    </div>
-                  </div>
-                  <div className="cursor-pointer relative flex items-center mt-5">
-                    <div className="w-12 h-12 flex-none image-fit mr-1">
-                      <img
-                        alt="Midone - HTML Admin Template"
-                        className="rounded-full"
-                        src="../../Lib/images/profile-7.jpg"
-                      />
-                      <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
-                    </div>
-                    <div className="ml-2 overflow-hidden">
-                      <div className="flex items-center">
-                        <a href="javascript:;" className="font-medium truncate mr-5">
-                          Johnny Depp
-                        </a>
-                        <div className="text-xs text-slate-400 ml-auto whitespace-nowrap">
-                          05:09 AM
-                        </div>
-                      </div>
-                      <div className="w-full truncate text-slate-500 mt-0.5">
-                        It is a long established fact that a reader will be distracted
-                        by the readable content of a page when looking at its layout.
-                        The point of using Lorem
-                      </div>
-                    </div>
-                  </div>
-                  <div className="cursor-pointer relative flex items-center mt-5">
-                    <div className="w-12 h-12 flex-none image-fit mr-1">
-                      <img
-                        alt="Midone - HTML Admin Template"
-                        className="rounded-full"
-                        src="../../Lib/images/profile-14.jpg"
-                      />
-                      <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
-                    </div>
-                    <div className="ml-2 overflow-hidden">
-                      <div className="flex items-center">
-                        <a href="javascript:;" className="font-medium truncate mr-5">
-                          Leonardo DiCaprio
+                        <a
+                          href="javascript:;"
+                          className="font-medium truncate mr-5"
+                        >
+                          Kevin Spacey
                         </a>
                         <div className="text-xs text-slate-400 ml-auto whitespace-nowrap">
                           01:10 PM
@@ -327,8 +232,120 @@ export default function Manager() {
                       </div>
                       <div className="w-full truncate text-slate-500 mt-0.5">
                         Contrary to popular belief, Lorem Ipsum is not simply random
-                        text. It has roots in a piece of classical Latin literature from
-                        45 BC, making it over 20
+                        text. It has roots in a piece of classical Latin literature
+                        from 45 BC, making it over 20
+                      </div>
+                    </div>
+                  </div>
+                  <div className="cursor-pointer relative flex items-center mt-5">
+                    <div className="w-12 h-12 flex-none image-fit mr-1">
+                      <img
+                        alt="Midone - HTML Admin Template"
+                        className="rounded-full"
+                        src="dist/images/profile-11.jpg"
+                      />
+                      <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
+                    </div>
+                    <div className="ml-2 overflow-hidden">
+                      <div className="flex items-center">
+                        <a
+                          href="javascript:;"
+                          className="font-medium truncate mr-5"
+                        >
+                          Denzel Washington
+                        </a>
+                        <div className="text-xs text-slate-400 ml-auto whitespace-nowrap">
+                          05:09 AM
+                        </div>
+                      </div>
+                      <div className="w-full truncate text-slate-500 mt-0.5">
+                        Contrary to popular belief, Lorem Ipsum is not simply random
+                        text. It has roots in a piece of classical Latin literature
+                        from 45 BC, making it over 20
+                      </div>
+                    </div>
+                  </div>
+                  <div className="cursor-pointer relative flex items-center mt-5">
+                    <div className="w-12 h-12 flex-none image-fit mr-1">
+                      <img
+                        alt="Midone - HTML Admin Template"
+                        className="rounded-full"
+                        src="dist/images/profile-15.jpg"
+                      />
+                      <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
+                    </div>
+                    <div className="ml-2 overflow-hidden">
+                      <div className="flex items-center">
+                        <a
+                          href="javascript:;"
+                          className="font-medium truncate mr-5"
+                        >
+                          Christian Bale
+                        </a>
+                        <div className="text-xs text-slate-400 ml-auto whitespace-nowrap">
+                          01:10 PM
+                        </div>
+                      </div>
+                      <div className="w-full truncate text-slate-500 mt-0.5">
+                        There are many variations of passages of Lorem Ipsum
+                        available, but the majority have suffered alteration in some
+                        form, by injected humour, or randomi
+                      </div>
+                    </div>
+                  </div>
+                  <div className="cursor-pointer relative flex items-center mt-5">
+                    <div className="w-12 h-12 flex-none image-fit mr-1">
+                      <img
+                        alt="Midone - HTML Admin Template"
+                        className="rounded-full"
+                        src="dist/images/profile-5.jpg"
+                      />
+                      <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
+                    </div>
+                    <div className="ml-2 overflow-hidden">
+                      <div className="flex items-center">
+                        <a
+                          href="javascript:;"
+                          className="font-medium truncate mr-5"
+                        >
+                          Tom Cruise
+                        </a>
+                        <div className="text-xs text-slate-400 ml-auto whitespace-nowrap">
+                          05:09 AM
+                        </div>
+                      </div>
+                      <div className="w-full truncate text-slate-500 mt-0.5">
+                        Contrary to popular belief, Lorem Ipsum is not simply random
+                        text. It has roots in a piece of classical Latin literature
+                        from 45 BC, making it over 20
+                      </div>
+                    </div>
+                  </div>
+                  <div className="cursor-pointer relative flex items-center mt-5">
+                    <div className="w-12 h-12 flex-none image-fit mr-1">
+                      <img
+                        alt="Midone - HTML Admin Template"
+                        className="rounded-full"
+                        src="dist/images/profile-14.jpg"
+                      />
+                      <div className="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white dark:border-darkmode-600" />
+                    </div>
+                    <div className="ml-2 overflow-hidden">
+                      <div className="flex items-center">
+                        <a
+                          href="javascript:;"
+                          className="font-medium truncate mr-5"
+                        >
+                          Al Pacino
+                        </a>
+                        <div className="text-xs text-slate-400 ml-auto whitespace-nowrap">
+                          01:10 PM
+                        </div>
+                      </div>
+                      <div className="w-full truncate text-slate-500 mt-0.5">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry
+                        standard dummy text ever since the 1500
                       </div>
                     </div>
                   </div>
@@ -346,15 +363,15 @@ export default function Manager() {
               >
                 <img
                   alt="Midone - HTML Admin Template"
-                  src="../../Lib/images/profile-8.jpg"
+                  src="dist/images/profile-3.jpg"
                 />
               </div>
               <div className="dropdown-menu w-56">
                 <ul className="dropdown-content bg-primary text-white">
                   <li className="p-2">
-                    <div className="font-medium">Sylvester Stallone</div>
+                    <div className="font-medium">Kevin Spacey</div>
                     <div className="text-xs text-white/70 mt-0.5 dark:text-slate-500">
-                      Frontend Engineer
+                      Backend Engineer
                     </div>
                   </li>
                   <li>
@@ -363,7 +380,7 @@ export default function Manager() {
                   <li>
                     <a href="" className="dropdown-item hover:bg-white/5">
 
-                      <i data-lucide="user" className="w-4 h-4 mr-2" /> Profile
+                      <i className="w-4 h-4 mr-2" /> Profile
                     </a>
                   </li>
                   <li>
@@ -375,13 +392,17 @@ export default function Manager() {
                   <li>
                     <a href="" className="dropdown-item hover:bg-white/5">
 
-                      <i data-lucide="lock" className="w-4 h-4 mr-2" /> Reset Password
+                      <i data-lucide="lock" className="w-4 h-4 mr-2" /> Reset
+                      Password
                     </a>
                   </li>
                   <li>
                     <a href="" className="dropdown-item hover:bg-white/5">
 
-                      <i data-lucide="help-circle" className="w-4 h-4 mr-2" /> Help
+                      <i
+                        data-lucide="help-circle"
+                        className="w-4 h-4 mr-2"
+                      /> Help
                     </a>
                   </li>
                   <li>
@@ -390,10 +411,8 @@ export default function Manager() {
                   <li>
                     <a href="" className="dropdown-item hover:bg-white/5">
 
-                      <i
-                        data-lucide="toggle-right"
-                        className="w-4 h-4 mr-2"
-                      /> Logout
+                      <i data-lucide="toggle-right" className="w-4 h-4 mr-2" />
+                      Logout
                     </a>
                   </li>
                 </ul>
